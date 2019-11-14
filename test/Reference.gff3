@@ -1,0 +1,528 @@
+##sequence-region AF332093.3 1 305119
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=92652
+AF332093.3	Genbank	region	1	305119	.	+	.	ID=AF332093.3:1..305119;Dbxref=taxon:92652;Is_circular=true;country=China;gbkey=Src;genome=genomic;mol_type=genomic DNA;note=WSBV;old-name=White Spot Bacilliform Virus;strain=WSSV-CN;synonym=white spot bacilliform virus
+AF332093.3	Genbank	CDS	1	5055	.	+	0	ID=cds-AIX03663.1;Dbxref=NCBI_GP:AIX03663.1;Name=AIX03663.1;Note=Collagen-like;gbkey=CDS;partial=true;product=wsv001;protein_id=AIX03663.1;start_range=.,1
+AF332093.3	Genbank	CDS	5099	5725	.	-	0	ID=cds-AAL33006.1;Dbxref=NCBI_GP:AAL33006.1;Name=AAL33006.1;Note=VP24%2C envelope protein;gbkey=CDS;product=wsv002;protein_id=AAL33006.1
+AF332093.3	Genbank	CDS	5178	5507	.	+	0	ID=cds-AAL33007.1;Dbxref=NCBI_GP:AAL33007.1;Name=AAL33007.1;gbkey=CDS;product=wsv003;protein_id=AAL33007.1
+AF332093.3	Genbank	CDS	5804	6118	.	-	0	ID=cds-AAL33008.1;Dbxref=NCBI_GP:AAL33008.1;Name=AAL33008.1;gbkey=CDS;product=wsv004;protein_id=AAL33008.1
+AF332093.3	Genbank	CDS	6044	6271	.	+	0	ID=cds-AAL33009.1;Dbxref=NCBI_GP:AAL33009.1;Name=AAL33009.1;gbkey=CDS;product=wsv005;protein_id=AAL33009.1
+AF332093.3	Genbank	CDS	6145	7032	.	-	0	ID=cds-AAL33010.1;Dbxref=NCBI_GP:AAL33010.1;Name=AAL33010.1;gbkey=CDS;product=wsv006;protein_id=AAL33010.1
+AF332093.3	Genbank	CDS	6318	6545	.	+	0	ID=cds-AAL33011.1;Dbxref=NCBI_GP:AAL33011.1;Name=AAL33011.1;gbkey=CDS;product=wsv007;protein_id=AAL33011.1
+AF332093.3	Genbank	CDS	6356	6970	.	+	0	ID=cds-AAL33012.1;Dbxref=NCBI_GP:AAL33012.1;Name=AAL33012.1;gbkey=CDS;product=wsv008;protein_id=AAL33012.1
+AF332093.3	Genbank	CDS	6992	7279	.	-	0	ID=cds-AAL33013.1;Dbxref=NCBI_GP:AAL33013.1;Name=AAL33013.1;Note=VP12%2C envelope protein;gbkey=CDS;product=wsv009;protein_id=AAL33013.1
+AF332093.3	Genbank	CDS	7310	7603	.	-	0	ID=cds-AAL33014.1;Dbxref=NCBI_GP:AAL33014.1;Name=AAL33014.1;Note=envelope protein;gbkey=CDS;product=wsv010;protein_id=AAL33014.1
+AF332093.3	Genbank	CDS	7658	11563	.	+	0	ID=cds-AAL33015.1;Dbxref=NCBI_GP:AAL33015.1;Name=AAL33015.1;Note=VP150%2C envelope protein;gbkey=CDS;product=wsv011;protein_id=AAL33015.1
+AF332093.3	Genbank	CDS	7714	7965	.	-	0	ID=cds-AAL33016.1;Dbxref=NCBI_GP:AAL33016.1;Name=AAL33016.1;gbkey=CDS;product=wsv012;protein_id=AAL33016.1
+AF332093.3	Genbank	CDS	8320	8562	.	-	0	ID=cds-AAL33017.1;Dbxref=NCBI_GP:AAL33017.1;Name=AAL33017.1;gbkey=CDS;product=wsv013;protein_id=AAL33017.1
+AF332093.3	Genbank	CDS	8718	8942	.	-	0	ID=cds-AAL33018.1;Dbxref=NCBI_GP:AAL33018.1;Name=AAL33018.1;gbkey=CDS;product=wsv014;protein_id=AAL33018.1
+AF332093.3	Genbank	CDS	9181	9573	.	-	0	ID=cds-AAL33019.1;Dbxref=NCBI_GP:AAL33019.1;Name=AAL33019.1;gbkey=CDS;product=wsv015;protein_id=AAL33019.1
+AF332093.3	Genbank	CDS	9261	9515	.	+	0	ID=cds-AAL33020.1;Dbxref=NCBI_GP:AAL33020.1;Name=AAL33020.1;gbkey=CDS;product=wsv016;protein_id=AAL33020.1
+AF332093.3	Genbank	CDS	9729	9911	.	+	0	ID=cds-AAL33021.1;Dbxref=NCBI_GP:AAL33021.1;Name=AAL33021.1;gbkey=CDS;product=wsv017;protein_id=AAL33021.1
+AF332093.3	Genbank	CDS	9877	10236	.	-	0	ID=cds-AAL33022.1;Dbxref=NCBI_GP:AAL33022.1;Name=AAL33022.1;gbkey=CDS;product=wsv018;protein_id=AAL33022.1
+AF332093.3	Genbank	CDS	10393	10647	.	-	0	ID=cds-AAL33023.1;Dbxref=NCBI_GP:AAL33023.1;Name=AAL33023.1;gbkey=CDS;product=wsv019;protein_id=AAL33023.1
+AF332093.3	Genbank	CDS	10858	11211	.	-	0	ID=cds-AAL33024.1;Dbxref=NCBI_GP:AAL33024.1;Name=AAL33024.1;gbkey=CDS;product=wsv020;protein_id=AAL33024.1
+AF332093.3	Genbank	CDS	11650	12252	.	-	0	ID=cds-AAL33025.1;Dbxref=NCBI_GP:AAL33025.1;Name=AAL33025.1;gbkey=CDS;product=wsv021;protein_id=AAL33025.1
+AF332093.3	Genbank	CDS	11857	12042	.	+	0	ID=cds-AAL33026.1;Dbxref=NCBI_GP:AAL33026.1;Name=AAL33026.1;gbkey=CDS;product=wsv022;protein_id=AAL33026.1
+AF332093.3	Genbank	CDS	12249	13109	.	-	0	ID=cds-AAL33027.1;Dbxref=NCBI_GP:AAL33027.1;Name=AAL33027.1;gbkey=CDS;product=wsv023;protein_id=AAL33027.1
+AF332093.3	Genbank	CDS	12739	13011	.	+	0	ID=cds-AAL33028.1;Dbxref=NCBI_GP:AAL33028.1;Name=AAL33028.1;gbkey=CDS;product=wsv024;protein_id=AAL33028.1
+AF332093.3	Genbank	CDS	13160	13855	.	-	0	ID=cds-AAL33029.1;Dbxref=NCBI_GP:AAL33029.1;Name=AAL33029.1;gbkey=CDS;product=wsv025;protein_id=AAL33029.1
+AF332093.3	Genbank	CDS	13936	18543	.	-	0	ID=cds-AAL33030.1;Dbxref=NCBI_GP:AAL33030.1;Name=AAL33030.1;gbkey=CDS;product=wsv026;protein_id=AAL33030.1
+AF332093.3	Genbank	CDS	13943	14203	.	+	0	ID=cds-AAL33031.1;Dbxref=NCBI_GP:AAL33031.1;Name=AAL33031.1;gbkey=CDS;product=wsv027;protein_id=AAL33031.1
+AF332093.3	Genbank	CDS	14145	14333	.	-	0	ID=cds-AAL33032.1;Dbxref=NCBI_GP:AAL33032.1;Name=AAL33032.1;gbkey=CDS;product=wsv028;protein_id=AAL33032.1
+AF332093.3	Genbank	CDS	14375	14608	.	+	0	ID=cds-AAL33033.1;Dbxref=NCBI_GP:AAL33033.1;Name=AAL33033.1;gbkey=CDS;product=wsv029;protein_id=AAL33033.1
+AF332093.3	Genbank	CDS	14957	15223	.	+	0	ID=cds-AAL33034.1;Dbxref=NCBI_GP:AAL33034.1;Name=AAL33034.1;gbkey=CDS;product=wsv030;protein_id=AAL33034.1
+AF332093.3	Genbank	CDS	15344	15532	.	+	0	ID=cds-AAL33035.1;Dbxref=NCBI_GP:AAL33035.1;Name=AAL33035.1;gbkey=CDS;product=wsv031;protein_id=AAL33035.1
+AF332093.3	Genbank	CDS	15570	15764	.	-	0	ID=cds-AAL33036.1;Dbxref=NCBI_GP:AAL33036.1;Name=AAL33036.1;gbkey=CDS;product=wsv032;protein_id=AAL33036.1
+AF332093.3	Genbank	CDS	15794	16090	.	+	0	ID=cds-AAL33037.1;Dbxref=NCBI_GP:AAL33037.1;Name=AAL33037.1;gbkey=CDS;product=wsv033;protein_id=AAL33037.1
+AF332093.3	Genbank	CDS	16232	16534	.	+	0	ID=cds-AAL33038.1;Dbxref=NCBI_GP:AAL33038.1;Name=AAL33038.1;gbkey=CDS;product=wsv034;protein_id=AAL33038.1
+AF332093.3	Genbank	CDS	18672	21590	.	-	0	ID=cds-AAL33039.1;Dbxref=NCBI_GP:AAL33039.1;Name=AAL33039.1;Note=VP110%2C envelope protein;gbkey=CDS;product=wsv035;protein_id=AAL33039.1
+AF332093.3	Genbank	CDS	20089	20298	.	+	0	ID=cds-AAL33040.1;Dbxref=NCBI_GP:AAL33040.1;Name=AAL33040.1;gbkey=CDS;product=wsv036;protein_id=AAL33040.1
+AF332093.3	Genbank	CDS	21607	25449	.	+	0	ID=cds-AAL33041.1;Dbxref=NCBI_GP:AAL33041.1;Name=AAL33041.1;gbkey=CDS;product=wsv037;protein_id=AAL33041.1
+AF332093.3	Genbank	CDS	22011	22259	.	-	0	ID=cds-AAL33042.1;Dbxref=NCBI_GP:AAL33042.1;Name=AAL33042.1;gbkey=CDS;product=wsv038;protein_id=AAL33042.1
+AF332093.3	Genbank	CDS	22337	22522	.	+	0	ID=cds-AAL33043.1;Dbxref=NCBI_GP:AAL33043.1;Name=AAL33043.1;gbkey=CDS;product=wsv039;protein_id=AAL33043.1
+AF332093.3	Genbank	CDS	22569	22796	.	-	0	ID=cds-AAL33044.1;Dbxref=NCBI_GP:AAL33044.1;Name=AAL33044.1;gbkey=CDS;product=wsv040;protein_id=AAL33044.1
+AF332093.3	Genbank	CDS	23682	23864	.	-	0	ID=cds-AAL33045.1;Dbxref=NCBI_GP:AAL33045.1;Name=AAL33045.1;gbkey=CDS;product=wsv041;protein_id=AAL33045.1
+AF332093.3	Genbank	CDS	24561	24800	.	-	0	ID=cds-AAL33046.1;Dbxref=NCBI_GP:AAL33046.1;Name=AAL33046.1;gbkey=CDS;product=wsv042;protein_id=AAL33046.1
+AF332093.3	Genbank	CDS	25103	25300	.	-	0	ID=cds-AAL33047.1;Dbxref=NCBI_GP:AAL33047.1;Name=AAL33047.1;gbkey=CDS;product=wsv043;protein_id=AAL33047.1
+AF332093.3	Genbank	CDS	25197	25439	.	-	0	ID=cds-AAL33048.1;Dbxref=NCBI_GP:AAL33048.1;Name=AAL33048.1;gbkey=CDS;product=wsv044;protein_id=AAL33048.1
+AF332093.3	Genbank	CDS	25391	28336	.	+	0	ID=cds-AAL33049.1;Dbxref=NCBI_GP:AAL33049.1;Name=AAL33049.1;gbkey=CDS;product=wsv045;protein_id=AAL33049.1
+AF332093.3	Genbank	CDS	25711	25905	.	-	0	ID=cds-AAL33050.1;Dbxref=NCBI_GP:AAL33050.1;Name=AAL33050.1;gbkey=CDS;product=wsv046;protein_id=AAL33050.1
+AF332093.3	Genbank	CDS	26295	26657	.	+	0	ID=cds-AAL33051.1;Dbxref=NCBI_GP:AAL33051.1;Name=AAL33051.1;gbkey=CDS;product=wsv047;protein_id=AAL33051.1
+AF332093.3	Genbank	CDS	26356	26571	.	-	0	ID=cds-AAL33052.1;Dbxref=NCBI_GP:AAL33052.1;Name=AAL33052.1;gbkey=CDS;product=wsv048;protein_id=AAL33052.1
+AF332093.3	Genbank	CDS	26749	27366	.	-	0	ID=cds-AAL33053.1;Dbxref=NCBI_GP:AAL33053.1;Name=AAL33053.1;gbkey=CDS;product=wsv049;protein_id=AAL33053.1
+AF332093.3	Genbank	CDS	28066	28263	.	-	0	ID=cds-AAL33054.1;Dbxref=NCBI_GP:AAL33054.1;Name=AAL33054.1;gbkey=CDS;product=wsv050;protein_id=AAL33054.1
+AF332093.3	Genbank	CDS	28317	28907	.	+	0	ID=cds-AAL33055.1;Dbxref=NCBI_GP:AAL33055.1;Name=AAL33055.1;gbkey=CDS;product=wsv051;protein_id=AAL33055.1
+AF332093.3	Genbank	CDS	28752	28970	.	-	0	ID=cds-AAL33056.1;Dbxref=NCBI_GP:AAL33056.1;Name=AAL33056.1;gbkey=CDS;product=wsv052;protein_id=AAL33056.1
+AF332093.3	Genbank	CDS	29268	29513	.	-	0	ID=cds-AAL33057.1;Dbxref=NCBI_GP:AAL33057.1;Name=AAL33057.1;gbkey=CDS;product=wsv053;protein_id=AAL33057.1
+AF332093.3	Genbank	CDS	29397	29585	.	+	0	ID=cds-AAL33058.1;Dbxref=NCBI_GP:AAL33058.1;Name=AAL33058.1;gbkey=CDS;product=wsv054;protein_id=AAL33058.1
+AF332093.3	Genbank	CDS	29569	29760	.	-	0	ID=cds-AAL33059.1;Dbxref=NCBI_GP:AAL33059.1;Name=AAL33059.1;gbkey=CDS;product=wsv055;protein_id=AAL33059.1
+AF332093.3	Genbank	CDS	29805	30485	.	-	0	ID=cds-AAL33060.1;Dbxref=NCBI_GP:AAL33060.1;Name=AAL33060.1;Note=immediate-early protein;gbkey=CDS;product=wsv056;protein_id=AAL33060.1
+AF332093.3	Genbank	CDS	29850	30389	.	+	0	ID=cds-AAL33061.1;Dbxref=NCBI_GP:AAL33061.1;Name=AAL33061.1;gbkey=CDS;product=wsv057;protein_id=AAL33061.1
+AF332093.3	Genbank	CDS	30079	30567	.	+	0	ID=cds-AAL33062.1;Dbxref=NCBI_GP:AAL33062.1;Name=AAL33062.1;gbkey=CDS;product=wsv058;protein_id=AAL33062.1
+AF332093.3	Genbank	CDS	31238	31864	.	+	0	ID=cds-AAL33063.1;Dbxref=NCBI_GP:AAL33063.1;Name=AAL33063.1;gbkey=CDS;product=wsv059;protein_id=AAL33063.1
+AF332093.3	Genbank	CDS	32117	32368	.	+	0	ID=cds-AAL33064.1;Dbxref=NCBI_GP:AAL33064.1;Name=AAL33064.1;gbkey=CDS;product=wsv060;protein_id=AAL33064.1
+AF332093.3	Genbank	CDS	32430	32654	.	+	0	ID=cds-AAL33065.1;Dbxref=NCBI_GP:AAL33065.1;Name=AAL33065.1;gbkey=CDS;product=wsv061;protein_id=AAL33065.1
+AF332093.3	Genbank	CDS	32510	32707	.	+	0	ID=cds-AAL33066.1;Dbxref=NCBI_GP:AAL33066.1;Name=AAL33066.1;gbkey=CDS;product=wsv062;protein_id=AAL33066.1
+AF332093.3	Genbank	CDS	32938	35469	.	-	0	ID=cds-AIX03664.1;Dbxref=NCBI_GP:AIX03664.1;Name=AIX03664.1;gbkey=CDS;product=wsv064;protein_id=AIX03664.1
+AF332093.3	Genbank	CDS	34435	34665	.	+	0	ID=cds-AAL33069.1;Dbxref=NCBI_GP:AAL33069.1;Name=AAL33069.1;gbkey=CDS;product=wsv065;protein_id=AAL33069.1
+AF332093.3	Genbank	CDS	34637	34840	.	+	0	ID=cds-AAL33070.1;Dbxref=NCBI_GP:AAL33070.1;Name=AAL33070.1;gbkey=CDS;product=wsv066;protein_id=AAL33070.1
+AF332093.3	Genbank	CDS	35700	36569	.	+	0	ID=cds-AAL33071.1;Dbxref=NCBI_GP:AAL33071.1;Name=AAL33071.1;Note=thymidylate synthetase;gbkey=CDS;product=wsv067;protein_id=AAL33071.1
+AF332093.3	Genbank	CDS	35714	35947	.	-	0	ID=cds-AAL33072.1;Dbxref=NCBI_GP:AAL33072.1;Name=AAL33072.1;gbkey=CDS;product=wsv068;protein_id=AAL33072.1
+AF332093.3	Genbank	CDS	36733	37407	.	+	0	ID=cds-AAL33073.1;Dbxref=NCBI_GP:AAL33073.1;Name=AAL33073.1;Note=IE1%2C immediate-early protein;gbkey=CDS;product=wsv069;protein_id=AAL33073.1
+AF332093.3	Genbank	CDS	36950	37132	.	+	0	ID=cds-AAL33074.1;Dbxref=NCBI_GP:AAL33074.1;Name=AAL33074.1;gbkey=CDS;product=wsv070;protein_id=AAL33074.1
+AF332093.3	Genbank	CDS	37017	37211	.	-	0	ID=cds-AAL33075.1;Dbxref=NCBI_GP:AAL33075.1;Name=AAL33075.1;gbkey=CDS;product=wsv071;protein_id=AAL33075.1
+AF332093.3	Genbank	CDS	37148	37336	.	-	0	ID=cds-AAL33076.1;Dbxref=NCBI_GP:AAL33076.1;Name=AAL33076.1;gbkey=CDS;product=wsv072;protein_id=AAL33076.1
+AF332093.3	Genbank	CDS	37556	38824	.	+	0	ID=cds-AAL33077.1;Dbxref=NCBI_GP:AAL33077.1;Name=AAL33077.1;gbkey=CDS;product=wsv073;protein_id=AAL33077.1
+AF332093.3	Genbank	CDS	37888	38079	.	-	0	ID=cds-AAL33078.1;Dbxref=NCBI_GP:AAL33078.1;Name=AAL33078.1;gbkey=CDS;product=wsv074;protein_id=AAL33078.1
+AF332093.3	Genbank	CDS	38599	38808	.	-	0	ID=cds-AAL33079.1;Dbxref=NCBI_GP:AAL33079.1;Name=AAL33079.1;gbkey=CDS;product=wsv075;protein_id=AAL33079.1
+AF332093.3	Genbank	CDS	38826	39656	.	+	0	ID=cds-AAL33080.1;Dbxref=NCBI_GP:AAL33080.1;Name=AAL33080.1;gbkey=CDS;product=wsv076;protein_id=AAL33080.1
+AF332093.3	Genbank	CDS	39682	40575	.	+	0	ID=cds-AAL33081.1;Dbxref=NCBI_GP:AAL33081.1;Name=AAL33081.1;gbkey=CDS;product=wsv077;protein_id=AAL33081.1
+AF332093.3	Genbank	CDS	40657	41853	.	-	0	ID=cds-AAL33082.1;Dbxref=NCBI_GP:AAL33082.1;Name=AAL33082.1;Note=immediate-early protein;gbkey=CDS;product=wsv078;protein_id=AAL33082.1
+AF332093.3	Genbank	CDS	41990	43525	.	-	0	ID=cds-AAL33083.1;Dbxref=NCBI_GP:AAL33083.1;Name=AAL33083.1;Note=immediate-early protein;gbkey=CDS;product=wsv079;protein_id=AAL33083.1
+AF332093.3	Genbank	CDS	42114	42503	.	+	0	ID=cds-AAL33084.1;Dbxref=NCBI_GP:AAL33084.1;Name=AAL33084.1;gbkey=CDS;product=wsv080;protein_id=AAL33084.1
+AF332093.3	Genbank	CDS	42227	42487	.	+	0	ID=cds-AAL33085.1;Dbxref=NCBI_GP:AAL33085.1;Name=AAL33085.1;gbkey=CDS;product=wsv081;protein_id=AAL33085.1
+AF332093.3	Genbank	CDS	43482	43664	.	+	0	ID=cds-AAL33086.1;Dbxref=NCBI_GP:AAL33086.1;Name=AAL33086.1;gbkey=CDS;product=wsv082;protein_id=AAL33086.1
+AF332093.3	Genbank	CDS	43581	45326	.	-	0	ID=cds-AAL33087.1;Dbxref=NCBI_GP:AAL33087.1;Name=AAL33087.1;Note=protein kinase%2C immediate-early protein;gbkey=CDS;product=wsv083;protein_id=AAL33087.1
+AF332093.3	Genbank	CDS	43975	44193	.	+	0	ID=cds-AAL33088.1;Dbxref=NCBI_GP:AAL33088.1;Name=AAL33088.1;gbkey=CDS;product=wsv084;protein_id=AAL33088.1
+AF332093.3	Genbank	CDS	44509	44808	.	+	0	ID=cds-AAL33089.1;Dbxref=NCBI_GP:AAL33089.1;Name=AAL33089.1;gbkey=CDS;product=wsv085;protein_id=AAL33089.1
+AF332093.3	Genbank	CDS	45008	45262	.	-	0	ID=cds-AAL33090.1;Dbxref=NCBI_GP:AAL33090.1;Name=AAL33090.1;gbkey=CDS;product=wsv086;protein_id=AAL33090.1
+AF332093.3	Genbank	CDS	45614	45856	.	-	0	ID=cds-AAL33091.1;Dbxref=NCBI_GP:AAL33091.1;Name=AAL33091.1;gbkey=CDS;product=wsv087;protein_id=AAL33091.1
+AF332093.3	Genbank	CDS	45695	45919	.	+	0	ID=cds-AAL33092.1;Dbxref=NCBI_GP:AAL33092.1;Name=AAL33092.1;gbkey=CDS;product=wsv088;protein_id=AAL33092.1
+AF332093.3	Genbank	CDS	45957	46403	.	+	0	ID=cds-AAL33093.1;Dbxref=NCBI_GP:AAL33093.1;Name=AAL33093.1;gbkey=CDS;product=wsv089;protein_id=AAL33093.1
+AF332093.3	Genbank	CDS	46328	46705	.	+	0	ID=cds-AAL33094.1;Dbxref=NCBI_GP:AAL33094.1;Name=AAL33094.1;gbkey=CDS;product=wsv090;protein_id=AAL33094.1
+AF332093.3	Genbank	CDS	46662	50099	.	+	0	ID=cds-AAL33095.1;Dbxref=NCBI_GP:AAL33095.1;Name=AAL33095.1;Note=immediate-early protein;gbkey=CDS;product=wsv091;protein_id=AAL33095.1
+AF332093.3	Genbank	CDS	47075	47347	.	-	0	ID=cds-AAL33096.1;Dbxref=NCBI_GP:AAL33096.1;Name=AAL33096.1;gbkey=CDS;product=wsv092;protein_id=AAL33096.1
+AF332093.3	Genbank	CDS	47239	47439	.	+	0	ID=cds-AAL33097.1;Dbxref=NCBI_GP:AAL33097.1;Name=AAL33097.1;gbkey=CDS;product=wsv093;protein_id=AAL33097.1
+AF332093.3	Genbank	CDS	48529	49020	.	-	0	ID=cds-AAL33098.1;Dbxref=NCBI_GP:AAL33098.1;Name=AAL33098.1;gbkey=CDS;product=wsv094;protein_id=AAL33098.1
+AF332093.3	Genbank	CDS	48619	48939	.	+	0	ID=cds-AAL33099.1;Dbxref=NCBI_GP:AAL33099.1;Name=AAL33099.1;gbkey=CDS;product=wsv095;protein_id=AAL33099.1
+AF332093.3	Genbank	CDS	49136	49408	.	-	0	ID=cds-AAL33100.1;Dbxref=NCBI_GP:AAL33100.1;Name=AAL33100.1;gbkey=CDS;product=wsv096;protein_id=AAL33100.1
+AF332093.3	Genbank	CDS	49783	50082	.	+	0	ID=cds-AAL33101.1;Dbxref=NCBI_GP:AAL33101.1;Name=AAL33101.1;gbkey=CDS;product=wsv097;protein_id=AAL33101.1
+AF332093.3	Genbank	CDS	50446	50952	.	+	0	ID=cds-AAL33102.1;Dbxref=NCBI_GP:AAL33102.1;Name=AAL33102.1;gbkey=CDS;product=wsv098;protein_id=AAL33102.1
+AF332093.3	Genbank	CDS	50537	50845	.	-	0	ID=cds-AAL33103.1;Dbxref=NCBI_GP:AAL33103.1;Name=AAL33103.1;gbkey=CDS;product=wsv099;protein_id=AAL33103.1
+AF332093.3	Genbank	CDS	50559	52433	.	+	0	ID=cds-AIX03665.1;Dbxref=NCBI_GP:AIX03665.1;Name=AIX03665.1;Note=putative CREB-binding protein%2C immediate-early protein;gbkey=CDS;product=wsv100;protein_id=AIX03665.1
+AF332093.3	Genbank	CDS	51024	51362	.	-	0	ID=cds-AIX03666.1;Dbxref=NCBI_GP:AIX03666.1;Name=AIX03666.1;gbkey=CDS;product=wsv101;protein_id=AIX03666.1
+AF332093.3	Genbank	CDS	51247	51465	.	-	0	ID=cds-AAL33106.1;Dbxref=NCBI_GP:AAL33106.1;Name=AAL33106.1;gbkey=CDS;product=wsv102;protein_id=AAL33106.1
+AF332093.3	Genbank	CDS	51467	51853	.	-	0	ID=cds-AAL33107.1;Dbxref=NCBI_GP:AAL33107.1;Name=AAL33107.1;gbkey=CDS;product=wsv103;protein_id=AAL33107.1
+AF332093.3	Genbank	CDS	52024	52290	.	+	0	ID=cds-AAL33108.1;Dbxref=NCBI_GP:AAL33108.1;Name=AAL33108.1;gbkey=CDS;product=wsv104;protein_id=AAL33108.1
+AF332093.3	Genbank	CDS	52082	52345	.	-	0	ID=cds-AAL33109.1;Dbxref=NCBI_GP:AAL33109.1;Name=AAL33109.1;gbkey=CDS;product=wsv105;protein_id=AAL33109.1
+AF332093.3	Genbank	CDS	52668	52898	.	-	0	ID=cds-AAL33110.1;Dbxref=NCBI_GP:AAL33110.1;Name=AAL33110.1;gbkey=CDS;product=wsv106;protein_id=AAL33110.1
+AF332093.3	Genbank	CDS	53243	53554	.	+	0	ID=cds-AAL33111.1;Dbxref=NCBI_GP:AAL33111.1;Name=AAL33111.1;gbkey=CDS;product=wsv107;protein_id=AAL33111.1
+AF332093.3	Genbank	CDS	53688	54908	.	-	0	ID=cds-AAL33112.1;Dbxref=NCBI_GP:AAL33112.1;Name=AAL33112.1;Note=immediate-early protein;gbkey=CDS;product=wsv108;protein_id=AAL33112.1
+AF332093.3	Genbank	CDS	54353	54637	.	-	0	ID=cds-AAL33113.1;Dbxref=NCBI_GP:AAL33113.1;Name=AAL33113.1;gbkey=CDS;product=wsv109;protein_id=AAL33113.1
+AF332093.3	Genbank	CDS	54703	54903	.	+	0	ID=cds-AAL33114.1;Dbxref=NCBI_GP:AAL33114.1;Name=AAL33114.1;gbkey=CDS;product=wsv110;protein_id=AAL33114.1
+AF332093.3	Genbank	CDS	54980	55183	.	-	0	ID=cds-AAL33115.1;Dbxref=NCBI_GP:AAL33115.1;Name=AAL33115.1;gbkey=CDS;product=wsv111;protein_id=AAL33115.1
+AF332093.3	Genbank	CDS	55032	56417	.	-	0	ID=cds-AAL33116.1;Dbxref=NCBI_GP:AAL33116.1;Name=AAL33116.1;Note=dUTPase;gbkey=CDS;product=wsv112;protein_id=AAL33116.1
+AF332093.3	Genbank	CDS	55350	55547	.	+	0	ID=cds-AAL33117.1;Dbxref=NCBI_GP:AAL33117.1;Name=AAL33117.1;gbkey=CDS;product=wsv113;protein_id=AAL33117.1
+AF332093.3	Genbank	CDS	55823	56041	.	-	0	ID=cds-AAL33118.1;Dbxref=NCBI_GP:AAL33118.1;Name=AAL33118.1;gbkey=CDS;product=wsv114;protein_id=AAL33118.1
+AF332093.3	Genbank	CDS	56615	59521	.	+	0	ID=cds-AAL33119.1;Dbxref=NCBI_GP:AAL33119.1;Name=AAL33119.1;gbkey=CDS;product=wsv115;protein_id=AAL33119.1
+AF332093.3	Genbank	CDS	57760	58302	.	-	0	ID=cds-AAL33120.1;Dbxref=NCBI_GP:AAL33120.1;Name=AAL33120.1;gbkey=CDS;product=wsv116;protein_id=AAL33120.1
+AF332093.3	Genbank	CDS	57984	58187	.	+	0	ID=cds-AAL33121.1;Dbxref=NCBI_GP:AAL33121.1;Name=AAL33121.1;gbkey=CDS;product=wsv117;protein_id=AAL33121.1
+AF332093.3	Genbank	CDS	59095	59472	.	-	0	ID=cds-AAL33122.1;Dbxref=NCBI_GP:AAL33122.1;Name=AAL33122.1;gbkey=CDS;product=wsv118;protein_id=AAL33122.1
+AF332093.3	Genbank	CDS	59663	62797	.	+	0	ID=cds-AAL33123.1;Dbxref=NCBI_GP:AAL33123.1;Name=AAL33123.1;gbkey=CDS;product=wsv119;protein_id=AAL33123.1
+AF332093.3	Genbank	CDS	59833	60099	.	-	0	ID=cds-AAL33124.1;Dbxref=NCBI_GP:AAL33124.1;Name=AAL33124.1;gbkey=CDS;product=wsv120;protein_id=AAL33124.1
+AF332093.3	Genbank	CDS	59842	60024	.	+	0	ID=cds-AAL33125.1;Dbxref=NCBI_GP:AAL33125.1;Name=AAL33125.1;gbkey=CDS;product=wsv121;protein_id=AAL33125.1
+AF332093.3	Genbank	CDS	59916	60101	.	+	0	ID=cds-AAL33126.1;Dbxref=NCBI_GP:AAL33126.1;Name=AAL33126.1;gbkey=CDS;product=wsv122;protein_id=AAL33126.1
+AF332093.3	Genbank	CDS	60119	60310	.	-	0	ID=cds-AAL33127.1;Dbxref=NCBI_GP:AAL33127.1;Name=AAL33127.1;gbkey=CDS;product=wsv123;protein_id=AAL33127.1
+AF332093.3	Genbank	CDS	60309	60530	.	+	0	ID=cds-AAL33128.1;Dbxref=NCBI_GP:AAL33128.1;Name=AAL33128.1;gbkey=CDS;product=wsv124;protein_id=AAL33128.1
+AF332093.3	Genbank	CDS	60313	60558	.	-	0	ID=cds-AAL33129.1;Dbxref=NCBI_GP:AAL33129.1;Name=AAL33129.1;gbkey=CDS;product=wsv125;protein_id=AAL33129.1
+AF332093.3	Genbank	CDS	62921	63226	.	+	0	ID=cds-AAL33130.1;Dbxref=NCBI_GP:AAL33130.1;Name=AAL33130.1;gbkey=CDS;product=wsv126;protein_id=AAL33130.1
+AF332093.3	Genbank	CDS	63123	63410	.	+	0	ID=cds-AAL33131.1;Dbxref=NCBI_GP:AAL33131.1;Name=AAL33131.1;gbkey=CDS;product=wsv127;protein_id=AAL33131.1
+AF332093.3	Genbank	CDS	63556	64668	.	+	0	ID=cds-AAL33132.1;Dbxref=NCBI_GP:AAL33132.1;Name=AAL33132.1;gbkey=CDS;product=wsv128;protein_id=AAL33132.1
+AF332093.3	Genbank	CDS	63564	64637	.	+	0	ID=cds-AAL33133.1;Dbxref=NCBI_GP:AAL33133.1;Name=AAL33133.1;gbkey=CDS;product=wsv129;protein_id=AAL33133.1
+AF332093.3	Genbank	CDS	64737	65189	.	-	0	ID=cds-AAL33134.1;Dbxref=NCBI_GP:AAL33134.1;Name=AAL33134.1;gbkey=CDS;product=wsv130;protein_id=AAL33134.1
+AF332093.3	Genbank	CDS	65281	66735	.	-	0	ID=cds-AAL33135.1;Dbxref=NCBI_GP:AAL33135.1;Name=AAL33135.1;gbkey=CDS;product=wsv131;protein_id=AAL33135.1
+AF332093.3	Genbank	CDS	65319	65558	.	-	0	ID=cds-AAL33136.1;Dbxref=NCBI_GP:AAL33136.1;Name=AAL33136.1;gbkey=CDS;product=wsv132;protein_id=AAL33136.1
+AF332093.3	Genbank	CDS	66812	67627	.	+	0	ID=cds-AAL33137.1;Dbxref=NCBI_GP:AAL33137.1;Name=AAL33137.1;gbkey=CDS;product=wsv133;protein_id=AAL33137.1
+AF332093.3	Genbank	CDS	67599	68267	.	+	0	ID=cds-AAL33138.1;Dbxref=NCBI_GP:AAL33138.1;Name=AAL33138.1;gbkey=CDS;product=wsv134;protein_id=AAL33138.1
+AF332093.3	Genbank	CDS	68252	68533	.	-	0	ID=cds-AAL33139.1;Dbxref=NCBI_GP:AAL33139.1;Name=AAL33139.1;gbkey=CDS;product=wsv135;protein_id=AAL33139.1
+AF332093.3	Genbank	CDS	68274	68660	.	+	0	ID=cds-AAL33140.1;Dbxref=NCBI_GP:AAL33140.1;Name=AAL33140.1;gbkey=CDS;product=wsv136;protein_id=AAL33140.1
+AF332093.3	Genbank	CDS	68619	69632	.	-	0	ID=cds-AAL33141.1;Dbxref=NCBI_GP:AAL33141.1;Name=AAL33141.1;gbkey=CDS;product=wsv137;protein_id=AAL33141.1
+AF332093.3	Genbank	CDS	68854	69165	.	+	0	ID=cds-AAL33142.1;Dbxref=NCBI_GP:AAL33142.1;Name=AAL33142.1;gbkey=CDS;product=wsv138;protein_id=AAL33142.1
+AF332093.3	Genbank	CDS	69641	73267	.	-	0	ID=cds-AAL33143.1;Dbxref=NCBI_GP:AAL33143.1;Name=AAL33143.1;gbkey=CDS;product=wsv139;protein_id=AAL33143.1
+AF332093.3	Genbank	CDS	70332	70973	.	+	0	ID=cds-AAL33144.1;Dbxref=NCBI_GP:AAL33144.1;Name=AAL33144.1;gbkey=CDS;product=wsv140;protein_id=AAL33144.1
+AF332093.3	Genbank	CDS	72934	73233	.	-	0	ID=cds-AAL33145.1;Dbxref=NCBI_GP:AAL33145.1;Name=AAL33145.1;gbkey=CDS;product=wsv141;protein_id=AAL33145.1
+AF332093.3	Genbank	CDS	73313	73726	.	-	0	ID=cds-AAL33146.1;Dbxref=NCBI_GP:AAL33146.1;Name=AAL33146.1;gbkey=CDS;product=wsv142;protein_id=AAL33146.1
+AF332093.3	Genbank	CDS	73873	80814	.	+	0	ID=cds-AAL33147.1;Dbxref=NCBI_GP:AAL33147.1;Name=AAL33147.1;gbkey=CDS;product=wsv143;protein_id=AAL33147.1
+AF332093.3	Genbank	CDS	77133	77534	.	-	0	ID=cds-AAL33148.1;Dbxref=NCBI_GP:AAL33148.1;Name=AAL33148.1;gbkey=CDS;product=wsv144;protein_id=AAL33148.1
+AF332093.3	Genbank	CDS	77799	77984	.	-	0	ID=cds-AAL33149.1;Dbxref=NCBI_GP:AAL33149.1;Name=AAL33149.1;gbkey=CDS;product=wsv145;protein_id=AAL33149.1
+AF332093.3	Genbank	CDS	79527	79727	.	-	0	ID=cds-AAL33150.1;Dbxref=NCBI_GP:AAL33150.1;Name=AAL33150.1;gbkey=CDS;product=wsv146;protein_id=AAL33150.1
+AF332093.3	Genbank	CDS	80882	82261	.	-	0	ID=cds-AAL33151.1;Dbxref=NCBI_GP:AAL33151.1;Name=AAL33151.1;gbkey=CDS;product=wsv147;protein_id=AAL33151.1
+AF332093.3	Genbank	CDS	81111	81299	.	+	0	ID=cds-AAL33152.1;Dbxref=NCBI_GP:AAL33152.1;Name=AAL33152.1;gbkey=CDS;product=wsv148;protein_id=AAL33152.1
+AF332093.3	Genbank	CDS	81948	82142	.	+	0	ID=cds-AAL33153.1;Dbxref=NCBI_GP:AAL33153.1;Name=AAL33153.1;gbkey=CDS;product=wsv149;protein_id=AAL33153.1
+AF332093.3	Genbank	CDS	82056	82469	.	-	0	ID=cds-AIX03667.1;Dbxref=NCBI_GP:AIX03667.1;Name=AIX03667.1;gbkey=CDS;product=wsv149a;protein_id=AIX03667.1
+AF332093.3	Genbank	CDS	82375	82974	.	-	0	ID=cds-AIX03668.1;Dbxref=NCBI_GP:AIX03668.1;Name=AIX03668.1;gbkey=CDS;product=wsv150;protein_id=AIX03668.1
+AF332093.3	Genbank	CDS	83674	87984	.	+	0	ID=cds-AIX03669.1;Dbxref=NCBI_GP:AIX03669.1;Name=AIX03669.1;gbkey=CDS;product=wsv151;protein_id=AIX03669.1
+AF332093.3	Genbank	CDS	83771	84019	.	+	0	ID=cds-AAL33156.1;Dbxref=NCBI_GP:AAL33156.1;Name=AAL33156.1;gbkey=CDS;product=wsv152;protein_id=AAL33156.1
+AF332093.3	Genbank	CDS	84463	84780	.	-	0	ID=cds-AAL33157.1;Dbxref=NCBI_GP:AAL33157.1;Name=AAL33157.1;gbkey=CDS;product=wsv153;protein_id=AAL33157.1
+AF332093.3	Genbank	CDS	84621	85208	.	-	0	ID=cds-AAL33158.1;Dbxref=NCBI_GP:AAL33158.1;Name=AAL33158.1;gbkey=CDS;product=wsv154;protein_id=AAL33158.1
+AF332093.3	Genbank	CDS	84830	85018	.	+	0	ID=cds-AAL33159.1;Dbxref=NCBI_GP:AAL33159.1;Name=AAL33159.1;gbkey=CDS;product=wsv155;protein_id=AAL33159.1
+AF332093.3	Genbank	CDS	85421	85609	.	+	0	ID=cds-AAL33160.1;Dbxref=NCBI_GP:AAL33160.1;Name=AAL33160.1;gbkey=CDS;product=wsv156;protein_id=AAL33160.1
+AF332093.3	Genbank	CDS	85458	85661	.	-	0	ID=cds-AAL33161.1;Dbxref=NCBI_GP:AAL33161.1;Name=AAL33161.1;gbkey=CDS;product=wsv157;protein_id=AAL33161.1
+AF332093.3	Genbank	CDS	86652	87011	.	-	0	ID=cds-AAL33162.1;Dbxref=NCBI_GP:AAL33162.1;Name=AAL33162.1;gbkey=CDS;product=wsv158;protein_id=AAL33162.1
+AF332093.3	Genbank	CDS	87153	87401	.	-	0	ID=cds-AAL33163.1;Dbxref=NCBI_GP:AAL33163.1;Name=AAL33163.1;gbkey=CDS;product=wsv159;protein_id=AAL33163.1
+AF332093.3	Genbank	CDS	87859	88065	.	-	0	ID=cds-AAL33164.1;Dbxref=NCBI_GP:AAL33164.1;Name=AAL33164.1;gbkey=CDS;product=wsv160;protein_id=AAL33164.1
+AF332093.3	Genbank	CDS	88037	90316	.	-	0	ID=cds-AAL33165.1;Dbxref=NCBI_GP:AAL33165.1;Name=AAL33165.1;gbkey=CDS;product=wsv161;protein_id=AAL33165.1
+AF332093.3	Genbank	CDS	89844	90059	.	+	0	ID=cds-AAL33166.1;Dbxref=NCBI_GP:AAL33166.1;Name=AAL33166.1;gbkey=CDS;product=wsv162;protein_id=AAL33166.1
+AF332093.3	Genbank	CDS	89854	90084	.	-	0	ID=cds-AAL33167.1;Dbxref=NCBI_GP:AAL33167.1;Name=AAL33167.1;gbkey=CDS;product=wsv163;protein_id=AAL33167.1
+AF332093.3	Genbank	CDS	89897	90091	.	+	0	ID=cds-AAL33168.1;Dbxref=NCBI_GP:AAL33168.1;Name=AAL33168.1;gbkey=CDS;product=wsv164;protein_id=AAL33168.1
+AF332093.3	Genbank	CDS	90213	90482	.	+	0	ID=cds-AAL33169.1;Dbxref=NCBI_GP:AAL33169.1;Name=AAL33169.1;gbkey=CDS;product=wsv165;protein_id=AAL33169.1
+AF332093.3	Genbank	CDS	90371	93589	.	-	0	ID=cds-AAL33170.1;Dbxref=NCBI_GP:AAL33170.1;Name=AAL33170.1;gbkey=CDS;product=wsv166;protein_id=AAL33170.1
+AF332093.3	Genbank	CDS	91200	91511	.	+	0	ID=cds-AAL33171.1;Dbxref=NCBI_GP:AAL33171.1;Name=AAL33171.1;gbkey=CDS;product=wsv167;protein_id=AAL33171.1
+AF332093.3	Genbank	CDS	91575	91784	.	+	0	ID=cds-AAL33172.1;Dbxref=NCBI_GP:AAL33172.1;Name=AAL33172.1;gbkey=CDS;product=wsv168;protein_id=AAL33172.1
+AF332093.3	Genbank	CDS	92102	92356	.	+	0	ID=cds-AAL33173.1;Dbxref=NCBI_GP:AAL33173.1;Name=AAL33173.1;gbkey=CDS;product=wsv169;protein_id=AAL33173.1
+AF332093.3	Genbank	CDS	92331	92552	.	+	0	ID=cds-AAL33174.1;Dbxref=NCBI_GP:AAL33174.1;Name=AAL33174.1;gbkey=CDS;product=wsv170;protein_id=AAL33174.1
+AF332093.3	Genbank	CDS	93663	93923	.	-	0	ID=cds-AAL33175.1;Dbxref=NCBI_GP:AAL33175.1;Name=AAL33175.1;gbkey=CDS;product=wsv171;protein_id=AAL33175.1
+AF332093.3	Genbank	CDS	93670	96216	.	-	0	ID=cds-AAL33176.1;Dbxref=NCBI_GP:AAL33176.1;Name=AAL33176.1;Note=RR1%2C ribonucleotide reductase large subunit;gbkey=CDS;product=wsv172;protein_id=AAL33176.1
+AF332093.3	Genbank	CDS	95059	95358	.	+	0	ID=cds-AAL33177.1;Dbxref=NCBI_GP:AAL33177.1;Name=AAL33177.1;gbkey=CDS;product=wsv173;protein_id=AAL33177.1
+AF332093.3	Genbank	CDS	95382	95579	.	-	0	ID=cds-AAL33178.1;Dbxref=NCBI_GP:AAL33178.1;Name=AAL33178.1;gbkey=CDS;product=wsv174;protein_id=AAL33178.1
+AF332093.3	Genbank	CDS	95389	95607	.	+	0	ID=cds-AAL33179.1;Dbxref=NCBI_GP:AAL33179.1;Name=AAL33179.1;gbkey=CDS;product=wsv175;protein_id=AAL33179.1
+AF332093.3	Genbank	CDS	95865	96125	.	-	0	ID=cds-AAL33180.1;Dbxref=NCBI_GP:AAL33180.1;Name=AAL33180.1;gbkey=CDS;product=wsv176;protein_id=AAL33180.1
+AF332093.3	Genbank	CDS	97253	97573	.	-	0	ID=cds-AAL33181.1;Dbxref=NCBI_GP:AAL33181.1;Name=AAL33181.1;gbkey=CDS;product=wsv177;protein_id=AAL33181.1
+AF332093.3	Genbank	CDS	97838	98746	.	+	0	ID=cds-AAL33182.1;Dbxref=NCBI_GP:AAL33182.1;Name=AAL33182.1;Note=immediate-early protein;gbkey=CDS;product=wsv178;protein_id=AAL33182.1
+AF332093.3	Genbank	CDS	98115	98780	.	+	0	ID=cds-AAL33183.1;Dbxref=NCBI_GP:AAL33183.1;Name=AAL33183.1;gbkey=CDS;product=wsv179;protein_id=AAL33183.1
+AF332093.3	Genbank	CDS	98782	99006	.	-	0	ID=cds-AAL33184.1;Dbxref=NCBI_GP:AAL33184.1;Name=AAL33184.1;gbkey=CDS;product=wsv180;protein_id=AAL33184.1
+AF332093.3	Genbank	CDS	99233	100351	.	+	0	ID=cds-AAL33185.1;Dbxref=NCBI_GP:AAL33185.1;Name=AAL33185.1;gbkey=CDS;product=wsv181;protein_id=AAL33185.1
+AF332093.3	Genbank	CDS	99283	99483	.	-	0	ID=cds-AAL33186.1;Dbxref=NCBI_GP:AAL33186.1;Name=AAL33186.1;gbkey=CDS;product=wsv182;protein_id=AAL33186.1
+AF332093.3	Genbank	CDS	100142	100381	.	-	0	ID=cds-AAL33187.1;Dbxref=NCBI_GP:AAL33187.1;Name=AAL33187.1;gbkey=CDS;product=wsv183;protein_id=AAL33187.1
+AF332093.3	Genbank	CDS	100353	101978	.	+	0	ID=cds-AAL33188.1;Dbxref=NCBI_GP:AAL33188.1;Name=AAL33188.1;gbkey=CDS;product=wsv184;protein_id=AAL33188.1
+AF332093.3	Genbank	CDS	100589	100942	.	-	0	ID=cds-AAL33189.1;Dbxref=NCBI_GP:AAL33189.1;Name=AAL33189.1;gbkey=CDS;product=wsv185;protein_id=AAL33189.1
+AF332093.3	Genbank	CDS	101770	102054	.	-	0	ID=cds-AAL33190.1;Dbxref=NCBI_GP:AAL33190.1;Name=AAL33190.1;gbkey=CDS;product=wsv186;protein_id=AAL33190.1
+AF332093.3	Genbank	CDS	102045	102371	.	-	0	ID=cds-AAL33191.1;Dbxref=NCBI_GP:AAL33191.1;Name=AAL33191.1;gbkey=CDS;product=wsv187;protein_id=AAL33191.1
+AF332093.3	Genbank	CDS	102157	103398	.	+	0	ID=cds-AAL33192.1;Dbxref=NCBI_GP:AAL33192.1;Name=AAL33192.1;Note=RR2%2C ribonucleotide reductase small subunit;gbkey=CDS;product=wsv188;protein_id=AAL33192.1
+AF332093.3	Genbank	CDS	102328	102633	.	-	0	ID=cds-AAL33193.1;Dbxref=NCBI_GP:AAL33193.1;Name=AAL33193.1;gbkey=CDS;product=wsv189;protein_id=AAL33193.1
+AF332093.3	Genbank	CDS	102642	102899	.	-	0	ID=cds-AAL33194.1;Dbxref=NCBI_GP:AAL33194.1;Name=AAL33194.1;gbkey=CDS;product=wsv190;protein_id=AAL33194.1
+AF332093.3	Genbank	CDS	103463	104398	.	+	0	ID=cds-AAL33195.1;Dbxref=NCBI_GP:AAL33195.1;Name=AAL33195.1;gbkey=CDS;product=wsv191;protein_id=AAL33195.1
+AF332093.3	Genbank	CDS	104435	107494	.	-	0	ID=cds-AAL33196.1;Dbxref=NCBI_GP:AAL33196.1;Name=AAL33196.1;gbkey=CDS;product=wsv192;protein_id=AAL33196.1
+AF332093.3	Genbank	CDS	105052	105246	.	-	0	ID=cds-AAL33197.1;Dbxref=NCBI_GP:AAL33197.1;Name=AAL33197.1;gbkey=CDS;product=wsv193;protein_id=AAL33197.1
+AF332093.3	Genbank	CDS	105372	105566	.	+	0	ID=cds-AAL33198.1;Dbxref=NCBI_GP:AAL33198.1;Name=AAL33198.1;gbkey=CDS;product=wsv194;protein_id=AAL33198.1
+AF332093.3	Genbank	CDS	107680	108453	.	+	0	ID=cds-AAL33199.1;Dbxref=NCBI_GP:AAL33199.1;Name=AAL33199.1;gbkey=CDS;product=wsv195;protein_id=AAL33199.1
+AF332093.3	Genbank	CDS	107985	108170	.	-	0	ID=cds-AAL33200.1;Dbxref=NCBI_GP:AAL33200.1;Name=AAL33200.1;gbkey=CDS;product=wsv196;protein_id=AAL33200.1
+AF332093.3	Genbank	CDS	108155	108355	.	+	0	ID=cds-AAL33201.1;Dbxref=NCBI_GP:AAL33201.1;Name=AAL33201.1;gbkey=CDS;product=wsv197;protein_id=AAL33201.1
+AF332093.3	Genbank	CDS	108453	109289	.	+	0	ID=cds-AAL33202.1;Dbxref=NCBI_GP:AAL33202.1;Name=AAL33202.1;Note=VP32%2C envelope protein;gbkey=CDS;product=wsv198;protein_id=AAL33202.1
+AF332093.3	Genbank	CDS	109369	111939	.	+	0	ID=cds-AAL33203.1;Dbxref=NCBI_GP:AAL33203.1;Name=AAL33203.1;gbkey=CDS;product=wsv199;protein_id=AAL33203.1
+AF332093.3	Genbank	CDS	109533	109754	.	-	0	ID=cds-AAL33204.1;Dbxref=NCBI_GP:AAL33204.1;Name=AAL33204.1;gbkey=CDS;product=wsv200;protein_id=AAL33204.1
+AF332093.3	Genbank	CDS	110718	111035	.	-	0	ID=cds-AAL33205.1;Dbxref=NCBI_GP:AAL33205.1;Name=AAL33205.1;gbkey=CDS;product=wsv201;protein_id=AAL33205.1
+AF332093.3	Genbank	CDS	111143	111328	.	-	0	ID=cds-AAL33206.1;Dbxref=NCBI_GP:AAL33206.1;Name=AAL33206.1;gbkey=CDS;product=wsv202;protein_id=AAL33206.1
+AF332093.3	Genbank	CDS	111761	112300	.	-	0	ID=cds-AAL33207.1;Dbxref=NCBI_GP:AAL33207.1;Name=AAL33207.1;gbkey=CDS;product=wsv203;protein_id=AAL33207.1
+AF332093.3	Genbank	CDS	112204	112593	.	-	0	ID=cds-AAL33208.1;Dbxref=NCBI_GP:AAL33208.1;Name=AAL33208.1;gbkey=CDS;product=wsv204;protein_id=AAL33208.1
+AF332093.3	Genbank	CDS	112412	112621	.	+	0	ID=cds-AAL33209.1;Dbxref=NCBI_GP:AAL33209.1;Name=AAL33209.1;gbkey=CDS;product=wsv205;protein_id=AAL33209.1
+AF332093.3	Genbank	CDS	113159	113773	.	+	0	ID=cds-AAL33210.1;Dbxref=NCBI_GP:AAL33210.1;Name=AAL33210.1;gbkey=CDS;product=wsv206;protein_id=AAL33210.1
+AF332093.3	Genbank	CDS	113870	114697	.	+	0	ID=cds-AAL33211.1;Dbxref=NCBI_GP:AAL33211.1;Name=AAL33211.1;gbkey=CDS;product=wsv207;protein_id=AAL33211.1
+AF332093.3	Genbank	CDS	114283	114477	.	-	0	ID=cds-AAL33212.1;Dbxref=NCBI_GP:AAL33212.1;Name=AAL33212.1;gbkey=CDS;product=wsv208;protein_id=AAL33212.1
+AF332093.3	Genbank	CDS	114742	119562	.	-	0	ID=cds-AAL33213.1;Dbxref=NCBI_GP:AAL33213.1;Name=AAL33213.1;Note=VP187%2C envelope protein;gbkey=CDS;product=wsv209;protein_id=AAL33213.1
+AF332093.3	Genbank	CDS	116129	116368	.	+	0	ID=cds-AAL33214.1;Dbxref=NCBI_GP:AAL33214.1;Name=AAL33214.1;gbkey=CDS;product=wsv210;protein_id=AAL33214.1
+AF332093.3	Genbank	CDS	117014	117325	.	+	0	ID=cds-AAL33215.1;Dbxref=NCBI_GP:AAL33215.1;Name=AAL33215.1;gbkey=CDS;product=wsv211;protein_id=AAL33215.1
+AF332093.3	Genbank	CDS	117969	118154	.	+	0	ID=cds-AAL33216.1;Dbxref=NCBI_GP:AAL33216.1;Name=AAL33216.1;gbkey=CDS;product=wsv212;protein_id=AAL33216.1
+AF332093.3	Genbank	CDS	118847	119044	.	+	0	ID=cds-AAL33217.1;Dbxref=NCBI_GP:AAL33217.1;Name=AAL33217.1;gbkey=CDS;product=wsv213;protein_id=AAL33217.1
+AF332093.3	Genbank	CDS	119696	119980	.	-	0	ID=cds-AAL33219.1;Dbxref=NCBI_GP:AAL33219.1;Name=AAL33219.1;gbkey=CDS;product=wsv215;protein_id=AAL33219.1
+AF332093.3	Genbank	CDS	119719	119904	.	+	0	ID=cds-AIX03670.1;Dbxref=NCBI_GP:AIX03670.1;Name=AIX03670.1;Note=VP15%2C DNA-binding protein;gbkey=CDS;product=wsv214;protein_id=AIX03670.1
+AF332093.3	Genbank	CDS	120012	123596	.	-	0	ID=cds-AIX03671.1;Dbxref=NCBI_GP:AIX03671.1;Name=AIX03671.1;Note=VP124%2C envelope protein;gbkey=CDS;product=wsv216;protein_id=AIX03671.1
+AF332093.3	Genbank	CDS	121216	121527	.	+	0	ID=cds-AAL33221.1;Dbxref=NCBI_GP:AAL33221.1;Name=AAL33221.1;gbkey=CDS;product=wsv217;protein_id=AAL33221.1
+AF332093.3	Genbank	CDS	121338	121610	.	+	0	ID=cds-AAL33222.1;Dbxref=NCBI_GP:AAL33222.1;Name=AAL33222.1;gbkey=CDS;product=wsv218;protein_id=AAL33222.1
+AF332093.3	Genbank	CDS	122728	123168	.	+	0	ID=cds-AAL33223.1;Dbxref=NCBI_GP:AAL33223.1;Name=AAL33223.1;gbkey=CDS;product=wsv219;protein_id=AAL33223.1
+AF332093.3	Genbank	CDS	123666	125690	.	+	0	ID=cds-AAL33224.1;Dbxref=NCBI_GP:AAL33224.1;Name=AAL33224.1;Note=VP76%2C capsid protein;gbkey=CDS;product=wsv220;protein_id=AAL33224.1
+AF332093.3	Genbank	CDS	124589	125398	.	-	0	ID=cds-AAL33225.1;Dbxref=NCBI_GP:AAL33225.1;Name=AAL33225.1;gbkey=CDS;product=wsv221;protein_id=AAL33225.1
+AF332093.3	Genbank	CDS	125709	128243	.	+	0	ID=cds-AAL33226.1;Dbxref=NCBI_GP:AAL33226.1;Name=AAL33226.1;Note=E3 ligase;gbkey=CDS;product=wsv222;protein_id=AAL33226.1
+AF332093.3	Genbank	CDS	126840	127265	.	-	0	ID=cds-AAL33227.1;Dbxref=NCBI_GP:AAL33227.1;Name=AAL33227.1;gbkey=CDS;product=wsv223;protein_id=AAL33227.1
+AF332093.3	Genbank	CDS	127051	127284	.	+	0	ID=cds-AAL33228.1;Dbxref=NCBI_GP:AAL33228.1;Name=AAL33228.1;gbkey=CDS;product=wsv224;protein_id=AAL33228.1
+AF332093.3	Genbank	CDS	127429	127707	.	+	0	ID=cds-AAL33229.1;Dbxref=NCBI_GP:AAL33229.1;Name=AAL33229.1;gbkey=CDS;product=wsv225;protein_id=AAL33229.1
+AF332093.3	Genbank	CDS	128367	131177	.	+	0	ID=cds-AIX03672.1;Dbxref=NCBI_GP:AIX03672.1;Name=AIX03672.1;gbkey=CDS;product=wsv226;protein_id=AIX03672.1
+AF332093.3	Genbank	CDS	128785	129057	.	-	0	ID=cds-AAL33231.1;Dbxref=NCBI_GP:AAL33231.1;Name=AAL33231.1;gbkey=CDS;product=wsv227;protein_id=AAL33231.1
+AF332093.3	Genbank	CDS	128831	129109	.	-	0	ID=cds-AAL33232.1;Dbxref=NCBI_GP:AAL33232.1;Name=AAL33232.1;gbkey=CDS;product=wsv228;protein_id=AAL33232.1
+AF332093.3	Genbank	CDS	129545	129739	.	-	0	ID=cds-AAL33233.1;Dbxref=NCBI_GP:AAL33233.1;Name=AAL33233.1;gbkey=CDS;product=wsv229;protein_id=AAL33233.1
+AF332093.3	Genbank	CDS	131382	131630	.	+	0	ID=cds-AAL33234.1;Dbxref=NCBI_GP:AAL33234.1;Name=AAL33234.1;Note=ICP11/P9;gbkey=CDS;product=wsv230;protein_id=AAL33234.1
+AF332093.3	Genbank	CDS	131786	133633	.	-	0	ID=cds-AAL33235.1;Dbxref=NCBI_GP:AAL33235.1;Name=AAL33235.1;gbkey=CDS;product=wsv231;protein_id=AAL33235.1
+AF332093.3	Genbank	CDS	131801	132061	.	+	0	ID=cds-AAL33236.1;Dbxref=NCBI_GP:AAL33236.1;Name=AAL33236.1;gbkey=CDS;product=wsv232;protein_id=AAL33236.1
+AF332093.3	Genbank	CDS	132080	132280	.	+	0	ID=cds-AAL33237.1;Dbxref=NCBI_GP:AAL33237.1;Name=AAL33237.1;gbkey=CDS;product=wsv233;protein_id=AAL33237.1
+AF332093.3	Genbank	CDS	134033	134917	.	-	0	ID=cds-AAL33238.1;Dbxref=NCBI_GP:AAL33238.1;Name=AAL33238.1;gbkey=CDS;product=wsv234;protein_id=AAL33238.1
+AF332093.3	Genbank	CDS	134238	134441	.	+	0	ID=cds-AAL33239.1;Dbxref=NCBI_GP:AAL33239.1;Name=AAL33239.1;gbkey=CDS;product=wsv235;protein_id=AAL33239.1
+AF332093.3	Genbank	CDS	134703	134936	.	+	0	ID=cds-AAL33240.1;Dbxref=NCBI_GP:AAL33240.1;Name=AAL33240.1;gbkey=CDS;product=wsv236;protein_id=AAL33240.1
+AF332093.3	Genbank	CDS	135193	136071	.	+	0	ID=cds-AAL33241.1;Dbxref=NCBI_GP:AAL33241.1;Name=AAL33241.1;Note=VP41A%2C envelope protein;gbkey=CDS;product=wsv237;protein_id=AAL33241.1
+AF332093.3	Genbank	CDS	136108	137568	.	+	0	ID=cds-AAL33242.1;Dbxref=NCBI_GP:AAL33242.1;Name=AAL33242.1;Note=VP52A%2C envelope protein;gbkey=CDS;product=wsv238;protein_id=AAL33242.1
+AF332093.3	Genbank	CDS	136203	136586	.	-	0	ID=cds-AAL33243.1;Dbxref=NCBI_GP:AAL33243.1;Name=AAL33243.1;gbkey=CDS;product=wsv239;protein_id=AAL33243.1
+AF332093.3	Genbank	CDS	136334	136564	.	+	0	ID=cds-AAL33244.1;Dbxref=NCBI_GP:AAL33244.1;Name=AAL33244.1;gbkey=CDS;product=wsv240;protein_id=AAL33244.1
+AF332093.3	Genbank	CDS	137109	137297	.	-	0	ID=cds-AAL33245.1;Dbxref=NCBI_GP:AAL33245.1;Name=AAL33245.1;gbkey=CDS;product=wsv241;protein_id=AAL33245.1
+AF332093.3	Genbank	CDS	137621	138523	.	+	0	ID=cds-AAL33246.1;Dbxref=NCBI_GP:AAL33246.1;Name=AAL33246.1;Note=VP41B%2C envelope protein;gbkey=CDS;product=wsv242;protein_id=AAL33246.1
+AF332093.3	Genbank	CDS	138596	140971	.	+	0	ID=cds-AAL33255.2;Dbxref=NCBI_GP:AAL33255.2;Name=AAL33255.2;gbkey=CDS;product=wsv244;protein_id=AAL33255.2
+AF332093.3	Genbank	CDS	141270	141500	.	+	0	ID=cds-AAL33249.1;Dbxref=NCBI_GP:AAL33249.1;Name=AAL33249.1;gbkey=CDS;product=wsv245;protein_id=AAL33249.1
+AF332093.3	Genbank	CDS	141525	141755	.	+	0	ID=cds-AAL33535.1;Dbxref=NCBI_GP:AAL33535.1;Name=AAL33535.1;gbkey=CDS;product=wsv246;protein_id=AAL33535.1
+AF332093.3	Genbank	CDS	141817	142056	.	+	0	ID=cds-AAL33250.1;Dbxref=NCBI_GP:AAL33250.1;Name=AAL33250.1;gbkey=CDS;product=wsv247;protein_id=AAL33250.1
+AF332093.3	Genbank	CDS	142158	142385	.	-	0	ID=cds-AAL33251.1;Dbxref=NCBI_GP:AAL33251.1;Name=AAL33251.1;gbkey=CDS;product=wsv248;protein_id=AAL33251.1
+AF332093.3	Genbank	CDS	142216	144567	.	+	0	ID=cds-AAL33252.1;Dbxref=NCBI_GP:AAL33252.1;Name=AAL33252.1;Note=E3 ligase%2C immediate-early protein;gbkey=CDS;product=wsv249;protein_id=AAL33252.1
+AF332093.3	Genbank	CDS	143496	144056	.	-	0	ID=cds-AAL33253.1;Dbxref=NCBI_GP:AAL33253.1;Name=AAL33253.1;gbkey=CDS;product=wsv250;protein_id=AAL33253.1
+AF332093.3	Genbank	CDS	144475	144687	.	-	0	ID=cds-AAL33254.1;Dbxref=NCBI_GP:AAL33254.1;Name=AAL33254.1;gbkey=CDS;product=wsv251;protein_id=AAL33254.1
+AF332093.3	Genbank	CDS	144738	146240	.	+	0	ID=cds-AIX03673.1;Dbxref=NCBI_GP:AIX03673.1;Name=AIX03673.1;gbkey=CDS;product=wsv252;protein_id=AIX03673.1
+AF332093.3	Genbank	CDS	145878	146192	.	-	0	ID=cds-AAL33256.1;Dbxref=NCBI_GP:AAL33256.1;Name=AAL33256.1;gbkey=CDS;product=wsv253;protein_id=AAL33256.1
+AF332093.3	Genbank	CDS	146320	147165	.	+	0	ID=cds-AAL33257.1;Dbxref=NCBI_GP:AAL33257.1;Name=AAL33257.1;gbkey=CDS;product=wsv254;protein_id=AAL33257.1
+AF332093.3	Genbank	CDS	146460	146756	.	-	0	ID=cds-AAL33258.1;Dbxref=NCBI_GP:AAL33258.1;Name=AAL33258.1;gbkey=CDS;product=wsv255;protein_id=AAL33258.1
+AF332093.3	Genbank	CDS	147169	148323	.	+	0	ID=cds-AAL33259.1;Dbxref=NCBI_GP:AAL33259.1;Name=AAL33259.1;Note=VP52B%2C envelope protein;gbkey=CDS;product=wsv256;protein_id=AAL33259.1
+AF332093.3	Genbank	CDS	147264	147773	.	-	0	ID=cds-AAL33260.1;Dbxref=NCBI_GP:AAL33260.1;Name=AAL33260.1;gbkey=CDS;product=wsv257;protein_id=AAL33260.1
+AF332093.3	Genbank	CDS	147864	148061	.	-	0	ID=cds-AAL33261.1;Dbxref=NCBI_GP:AAL33261.1;Name=AAL33261.1;gbkey=CDS;product=wsv258;protein_id=AAL33261.1
+AF332093.3	Genbank	CDS	148384	149313	.	+	0	ID=cds-AIX03674.1;Dbxref=NCBI_GP:AIX03674.1;Name=AIX03674.1;Note=VP38%2C envelope protein;gbkey=CDS;product=wsv259;protein_id=AIX03674.1
+AF332093.3	Genbank	CDS	149373	152141	.	-	0	ID=cds-AAL33263.1;Dbxref=NCBI_GP:AAL33263.1;Name=AAL33263.1;gbkey=CDS;product=wsv260;protein_id=AAL33263.1
+AF332093.3	Genbank	CDS	149583	149768	.	+	0	ID=cds-AAL33264.1;Dbxref=NCBI_GP:AAL33264.1;Name=AAL33264.1;gbkey=CDS;product=wsv261;protein_id=AAL33264.1
+AF332093.3	Genbank	CDS	150218	150532	.	-	0	ID=cds-AAL33265.1;Dbxref=NCBI_GP:AAL33265.1;Name=AAL33265.1;gbkey=CDS;product=wsv262;protein_id=AAL33265.1
+AF332093.3	Genbank	CDS	151199	151423	.	-	0	ID=cds-AAL33266.1;Dbxref=NCBI_GP:AAL33266.1;Name=AAL33266.1;gbkey=CDS;product=wsv263;protein_id=AAL33266.1
+AF332093.3	Genbank	CDS	151600	151821	.	+	0	ID=cds-AAL33267.1;Dbxref=NCBI_GP:AAL33267.1;Name=AAL33267.1;gbkey=CDS;product=wsv264;protein_id=AAL33267.1
+AF332093.3	Genbank	CDS	151818	152135	.	+	0	ID=cds-AAL33268.1;Dbxref=NCBI_GP:AAL33268.1;Name=AAL33268.1;gbkey=CDS;product=wsv265;protein_id=AAL33268.1
+AF332093.3	Genbank	CDS	152329	152649	.	+	0	ID=cds-AAL33269.1;Dbxref=NCBI_GP:AAL33269.1;Name=AAL33269.1;gbkey=CDS;product=wsv266;protein_id=AAL33269.1
+AF332093.3	Genbank	CDS	152391	153236	.	-	0	ID=cds-AAL33270.1;Dbxref=NCBI_GP:AAL33270.1;Name=AAL33270.1;gbkey=CDS;product=wsv267;protein_id=AAL33270.1
+AF332093.3	Genbank	CDS	153001	153333	.	+	0	ID=cds-AAL33271.1;Dbxref=NCBI_GP:AAL33271.1;Name=AAL33271.1;gbkey=CDS;product=wsv268;protein_id=AAL33271.1
+AF332093.3	Genbank	CDS	153300	154769	.	-	0	ID=cds-AAL33272.1;Dbxref=NCBI_GP:AAL33272.1;Name=AAL33272.1;gbkey=CDS;product=wsv269;protein_id=AAL33272.1
+AF332093.3	Genbank	CDS	154787	155299	.	-	0	ID=cds-AAL33273.1;Dbxref=NCBI_GP:AAL33273.1;Name=AAL33273.1;gbkey=CDS;product=wsv270;protein_id=AAL33273.1
+AF332093.3	Genbank	CDS	155312	158971	.	+	0	ID=cds-AIX03675.1;Dbxref=NCBI_GP:AIX03675.1;Name=AIX03675.1;Note=VP136%2C capsid protein;gbkey=CDS;product=wsv271;protein_id=AIX03675.1
+AF332093.3	Genbank	CDS	155595	155807	.	+	0	ID=cds-AAL33275.1;Dbxref=NCBI_GP:AAL33275.1;Name=AAL33275.1;gbkey=CDS;product=wsv272;protein_id=AAL33275.1
+AF332093.3	Genbank	CDS	156285	156557	.	+	0	ID=cds-AAL33276.1;Dbxref=NCBI_GP:AAL33276.1;Name=AAL33276.1;gbkey=CDS;product=wsv273;protein_id=AAL33276.1
+AF332093.3	Genbank	CDS	156630	156818	.	-	0	ID=cds-AIX03676.1;Dbxref=NCBI_GP:AIX03676.1;Name=AIX03676.1;gbkey=CDS;product=wsv274;protein_id=AIX03676.1
+AF332093.3	Genbank	CDS	157603	157857	.	-	0	ID=cds-AAL33278.1;Dbxref=NCBI_GP:AAL33278.1;Name=AAL33278.1;gbkey=CDS;product=wsv275;protein_id=AAL33278.1
+AF332093.3	Genbank	CDS	158191	158436	.	-	0	ID=cds-AAL33279.1;Dbxref=NCBI_GP:AAL33279.1;Name=AAL33279.1;gbkey=CDS;product=wsv276;protein_id=AAL33279.1
+AF332093.3	Genbank	CDS	159184	161559	.	+	0	ID=cds-AAL33280.1;Dbxref=NCBI_GP:AAL33280.1;Name=AAL33280.1;gbkey=CDS;product=wsv277;protein_id=AAL33280.1
+AF332093.3	Genbank	CDS	159578	159769	.	+	0	ID=cds-AAL33281.1;Dbxref=NCBI_GP:AAL33281.1;Name=AAL33281.1;gbkey=CDS;product=wsv278;protein_id=AAL33281.1
+AF332093.3	Genbank	CDS	160300	160512	.	-	0	ID=cds-AAL33282.1;Dbxref=NCBI_GP:AAL33282.1;Name=AAL33282.1;gbkey=CDS;product=wsv279;protein_id=AAL33282.1
+AF332093.3	Genbank	CDS	160502	160738	.	+	0	ID=cds-AAL33283.1;Dbxref=NCBI_GP:AAL33283.1;Name=AAL33283.1;gbkey=CDS;product=wsv280;protein_id=AAL33283.1
+AF332093.3	Genbank	CDS	163610	163819	.	+	0	ID=cds-AAL33284.1;Dbxref=NCBI_GP:AAL33284.1;Name=AAL33284.1;gbkey=CDS;product=wsv281;protein_id=AAL33284.1
+AF332093.3	Genbank	CDS	163979	165883	.	+	0	ID=cds-AAL33285.1;Dbxref=NCBI_GP:AAL33285.1;Name=AAL33285.1;gbkey=CDS;product=wsv282;protein_id=AAL33285.1
+AF332093.3	Genbank	CDS	165877	166089	.	-	0	ID=cds-AAL33286.1;Dbxref=NCBI_GP:AAL33286.1;Name=AAL33286.1;gbkey=CDS;product=wsv283;protein_id=AAL33286.1
+AF332093.3	Genbank	CDS	165890	166192	.	+	0	ID=cds-AAL33287.1;Dbxref=NCBI_GP:AAL33287.1;Name=AAL33287.1;gbkey=CDS;product=wsv284;protein_id=AAL33287.1
+AF332093.3	Genbank	CDS	166345	169647	.	+	0	ID=cds-AAL33288.1;Dbxref=NCBI_GP:AAL33288.1;Name=AAL33288.1;gbkey=CDS;product=wsv285;protein_id=AAL33288.1
+AF332093.3	Genbank	CDS	166425	166751	.	-	0	ID=cds-AAL33289.1;Dbxref=NCBI_GP:AAL33289.1;Name=AAL33289.1;gbkey=CDS;product=wsv286;protein_id=AAL33289.1
+AF332093.3	Genbank	CDS	166951	167295	.	-	0	ID=cds-AAL33536.1;Dbxref=NCBI_GP:AAL33536.1;Name=AAL33536.1;gbkey=CDS;product=wsv287;protein_id=AAL33536.1
+AF332093.3	Genbank	CDS	167183	167563	.	+	0	ID=cds-AAL33290.1;Dbxref=NCBI_GP:AAL33290.1;Name=AAL33290.1;gbkey=CDS;product=wsv288;protein_id=AAL33290.1
+AF332093.3	Genbank	CDS	169744	174441	.	-	0	ID=cds-AAL33291.1;Dbxref=NCBI_GP:AAL33291.1;Name=AAL33291.1;Note=VP190%2C capsid protein;gbkey=CDS;product=wsv289;protein_id=AAL33291.1
+AF332093.3	Genbank	CDS	170216	170506	.	+	0	ID=cds-AAL33292.1;Dbxref=NCBI_GP:AAL33292.1;Name=AAL33292.1;gbkey=CDS;product=wsv290;protein_id=AAL33292.1
+AF332093.3	Genbank	CDS	171905	172162	.	+	0	ID=cds-AAL33293.1;Dbxref=NCBI_GP:AAL33293.1;Name=AAL33293.1;gbkey=CDS;product=wsv291;protein_id=AAL33293.1
+AF332093.3	Genbank	CDS	173123	173359	.	+	0	ID=cds-AAL33294.1;Dbxref=NCBI_GP:AAL33294.1;Name=AAL33294.1;gbkey=CDS;product=wsv292;protein_id=AAL33294.1
+AF332093.3	Genbank	CDS	173855	174037	.	+	0	ID=cds-AAL33295.1;Dbxref=NCBI_GP:AAL33295.1;Name=AAL33295.1;gbkey=CDS;product=wsv293;protein_id=AAL33295.1
+AF332093.3	Genbank	CDS	174395	174688	.	-	0	ID=cds-AFX61445.1;Dbxref=NCBI_GP:AFX61445.1;Name=AFX61445.1;Note=VP14%2C envelope protein;gbkey=CDS;product=wsv293a;protein_id=AFX61445.1
+AF332093.3	Genbank	CDS	174741	175361	.	+	0	ID=cds-AAL33296.1;Dbxref=NCBI_GP:AAL33296.1;Name=AAL33296.1;gbkey=CDS;product=wsv294;protein_id=AAL33296.1
+AF332093.3	Genbank	CDS	175460	176089	.	+	0	ID=cds-AAL33297.1;Dbxref=NCBI_GP:AAL33297.1;Name=AAL33297.1;gbkey=CDS;product=wsv295;protein_id=AAL33297.1
+AF332093.3	Genbank	CDS	175687	176034	.	-	0	ID=cds-AAL33298.1;Dbxref=NCBI_GP:AAL33298.1;Name=AAL33298.1;gbkey=CDS;product=wsv296;protein_id=AAL33298.1
+AF332093.3	Genbank	CDS	175913	176122	.	-	0	ID=cds-AAL33299.1;Dbxref=NCBI_GP:AAL33299.1;Name=AAL33299.1;gbkey=CDS;product=wsv297;protein_id=AAL33299.1
+AF332093.3	Genbank	CDS	176061	176243	.	+	0	ID=cds-AAL33300.1;Dbxref=NCBI_GP:AAL33300.1;Name=AAL33300.1;gbkey=CDS;product=wsv298;protein_id=AAL33300.1
+AF332093.3	Genbank	CDS	176138	177067	.	-	0	ID=cds-AAL33301.1;Dbxref=NCBI_GP:AAL33301.1;Name=AAL33301.1;gbkey=CDS;product=wsv299;protein_id=AAL33301.1
+AF332093.3	Genbank	CDS	176527	176724	.	-	0	ID=cds-AAL33302.1;Dbxref=NCBI_GP:AAL33302.1;Name=AAL33302.1;gbkey=CDS;product=wsv300;protein_id=AAL33302.1
+AF332093.3	Genbank	CDS	176802	177170	.	+	0	ID=cds-AAL33303.1;Dbxref=NCBI_GP:AAL33303.1;Name=AAL33303.1;gbkey=CDS;product=wsv301;protein_id=AAL33303.1
+AF332093.3	Genbank	CDS	177134	177703	.	-	0	ID=cds-AAL33304.1;Dbxref=NCBI_GP:AAL33304.1;Name=AAL33304.1;gbkey=CDS;product=wsv302;protein_id=AAL33304.1
+AF332093.3	Genbank	CDS	177806	180481	.	+	0	ID=cds-AAL33305.1;Dbxref=NCBI_GP:AAL33305.1;Name=AAL33305.1;Note=putative TATA-box bind protein;gbkey=CDS;product=wsv303;protein_id=AAL33305.1
+AF332093.3	Genbank	CDS	177949	178197	.	-	0	ID=cds-AAL33306.1;Dbxref=NCBI_GP:AAL33306.1;Name=AAL33306.1;gbkey=CDS;product=wsv304;protein_id=AAL33306.1
+AF332093.3	Genbank	CDS	179608	179937	.	-	0	ID=cds-AAL33307.1;Dbxref=NCBI_GP:AAL33307.1;Name=AAL33307.1;gbkey=CDS;product=wsv305;protein_id=AAL33307.1
+AF332093.3	Genbank	CDS	180468	181727	.	+	0	ID=cds-AAL33308.1;Dbxref=NCBI_GP:AAL33308.1;Name=AAL33308.1;Note=VP39A%2C envelope protein;gbkey=CDS;product=wsv306;protein_id=AAL33308.1
+AF332093.3	Genbank	CDS	180493	180681	.	+	0	ID=cds-AAL33309.1;Dbxref=NCBI_GP:AAL33309.1;Name=AAL33309.1;gbkey=CDS;product=wsv307;protein_id=AAL33309.1
+AF332093.3	Genbank	CDS	181752	183152	.	+	0	ID=cds-AAL33310.1;Dbxref=NCBI_GP:AAL33310.1;Name=AAL33310.1;Note=VP51%2C capsid protein;gbkey=CDS;product=wsv308;protein_id=AAL33310.1
+AF332093.3	Genbank	CDS	181886	182173	.	-	0	ID=cds-AAL33311.1;Dbxref=NCBI_GP:AAL33311.1;Name=AAL33311.1;gbkey=CDS;product=wsv309;protein_id=AAL33311.1
+AF332093.3	Genbank	CDS	183158	183976	.	+	0	ID=cds-AAL33312.1;Dbxref=NCBI_GP:AAL33312.1;Name=AAL33312.1;gbkey=CDS;product=wsv310;protein_id=AAL33312.1
+AF332093.3	Genbank	CDS	184050	184664	.	-	0	ID=cds-AAL33313.1;Dbxref=NCBI_GP:AAL33313.1;Name=AAL33313.1;Note=VP26%2C envelope protein;gbkey=CDS;product=wsv311;protein_id=AAL33313.1
+AF332093.3	Genbank	CDS	184234	184461	.	+	0	ID=cds-AAL33314.1;Dbxref=NCBI_GP:AAL33314.1;Name=AAL33314.1;gbkey=CDS;product=wsv312;protein_id=AAL33314.1
+AF332093.3	Genbank	CDS	184903	188445	.	-	0	ID=cds-AIX03677.1;Dbxref=NCBI_GP:AIX03677.1;Name=AIX03677.1;gbkey=CDS;product=wsv313;protein_id=AIX03677.1
+AF332093.3	Genbank	CDS	185324	185767	.	+	0	ID=cds-AAL33316.1;Dbxref=NCBI_GP:AAL33316.1;Name=AAL33316.1;gbkey=CDS;product=wsv314;protein_id=AAL33316.1
+AF332093.3	Genbank	CDS	185466	185789	.	+	0	ID=cds-AAL33317.1;Dbxref=NCBI_GP:AAL33317.1;Name=AAL33317.1;gbkey=CDS;product=wsv315;protein_id=AAL33317.1
+AF332093.3	Genbank	CDS	185879	186082	.	+	0	ID=cds-AAL33318.1;Dbxref=NCBI_GP:AAL33318.1;Name=AAL33318.1;gbkey=CDS;product=wsv316;protein_id=AAL33318.1
+AF332093.3	Genbank	CDS	187085	187357	.	+	0	ID=cds-AAL33319.1;Dbxref=NCBI_GP:AAL33319.1;Name=AAL33319.1;gbkey=CDS;product=wsv317;protein_id=AAL33319.1
+AF332093.3	Genbank	CDS	187357	187581	.	+	0	ID=cds-AAL33320.1;Dbxref=NCBI_GP:AAL33320.1;Name=AAL33320.1;gbkey=CDS;product=wsv318;protein_id=AAL33320.1
+AF332093.3	Genbank	CDS	187645	187860	.	+	0	ID=cds-AIX03678.1;Dbxref=NCBI_GP:AIX03678.1;Name=AIX03678.1;gbkey=CDS;product=wsv319;protein_id=AIX03678.1
+AF332093.3	Genbank	CDS	187868	188284	.	+	0	ID=cds-AAL33322.1;Dbxref=NCBI_GP:AAL33322.1;Name=AAL33322.1;gbkey=CDS;product=wsv320;protein_id=AAL33322.1
+AF332093.3	Genbank	CDS	188760	189113	.	+	0	ID=cds-AAL33323.1;Dbxref=NCBI_GP:AAL33323.1;Name=AAL33323.1;Note=VP16%2C envelope protein;gbkey=CDS;product=wsv321;protein_id=AAL33323.1
+AF332093.3	Genbank	CDS	189127	189810	.	+	0	ID=cds-AAL33324.1;Dbxref=NCBI_GP:AAL33324.1;Name=AAL33324.1;gbkey=CDS;product=wsv322;protein_id=AAL33324.1
+AF332093.3	Genbank	CDS	189444	189710	.	-	0	ID=cds-AAL33325.1;Dbxref=NCBI_GP:AAL33325.1;Name=AAL33325.1;gbkey=CDS;product=wsv323;protein_id=AAL33325.1
+AF332093.3	Genbank	CDS	189814	190062	.	-	0	ID=cds-AAL33326.1;Dbxref=NCBI_GP:AAL33326.1;Name=AAL33326.1;gbkey=CDS;product=wsv324;protein_id=AAL33326.1
+AF332093.3	Genbank	CDS	190061	191458	.	+	0	ID=cds-AAL33327.1;Dbxref=NCBI_GP:AAL33327.1;Name=AAL33327.1;Note=VP56%2C envelope protein;gbkey=CDS;product=wsv325;protein_id=AAL33327.1
+AF332093.3	Genbank	CDS	190678	190866	.	-	0	ID=cds-AAL33328.1;Dbxref=NCBI_GP:AAL33328.1;Name=AAL33328.1;gbkey=CDS;product=wsv326;protein_id=AAL33328.1
+AF332093.3	Genbank	CDS	192801	195371	.	-	0	ID=cds-AAL33329.1;Dbxref=NCBI_GP:AAL33329.1;Name=AAL33329.1;Note=VP90%2C envelope protein;gbkey=CDS;product=wsv327;protein_id=AAL33329.1
+AF332093.3	Genbank	CDS	193018	193224	.	+	0	ID=cds-AAL33330.1;Dbxref=NCBI_GP:AAL33330.1;Name=AAL33330.1;gbkey=CDS;product=wsv328;protein_id=AAL33330.1
+AF332093.3	Genbank	CDS	193237	193536	.	+	0	ID=cds-AAL33331.1;Dbxref=NCBI_GP:AAL33331.1;Name=AAL33331.1;gbkey=CDS;product=wsv329;protein_id=AAL33331.1
+AF332093.3	Genbank	CDS	193618	193959	.	+	0	ID=cds-AAL33332.1;Dbxref=NCBI_GP:AAL33332.1;Name=AAL33332.1;gbkey=CDS;product=wsv330;protein_id=AAL33332.1
+AF332093.3	Genbank	CDS	194722	194937	.	+	0	ID=cds-AAL33333.1;Dbxref=NCBI_GP:AAL33333.1;Name=AAL33333.1;gbkey=CDS;product=wsv331;protein_id=AAL33333.1
+AF332093.3	Genbank	CDS	195504	197864	.	+	0	ID=cds-AAL33334.1;Dbxref=NCBI_GP:AAL33334.1;Name=AAL33334.1;gbkey=CDS;product=wsv332;protein_id=AAL33334.1
+AF332093.3	Genbank	CDS	195557	195763	.	-	0	ID=cds-AAL33335.1;Dbxref=NCBI_GP:AAL33335.1;Name=AAL33335.1;gbkey=CDS;product=wsv333;protein_id=AAL33335.1
+AF332093.3	Genbank	CDS	195861	196109	.	-	0	ID=cds-AAL33336.1;Dbxref=NCBI_GP:AAL33336.1;Name=AAL33336.1;gbkey=CDS;product=wsv334;protein_id=AAL33336.1
+AF332093.3	Genbank	CDS	195968	196165	.	-	0	ID=cds-AAL33337.1;Dbxref=NCBI_GP:AAL33337.1;Name=AAL33337.1;gbkey=CDS;product=wsv335;protein_id=AAL33337.1
+AF332093.3	Genbank	CDS	197042	197332	.	-	0	ID=cds-AAL33338.1;Dbxref=NCBI_GP:AAL33338.1;Name=AAL33338.1;gbkey=CDS;product=wsv336;protein_id=AAL33338.1
+AF332093.3	Genbank	CDS	197387	197626	.	-	0	ID=cds-AAL33339.1;Dbxref=NCBI_GP:AAL33339.1;Name=AAL33339.1;gbkey=CDS;product=wsv337;protein_id=AAL33339.1
+AF332093.3	Genbank	CDS	197956	199257	.	-	0	ID=cds-AAL33340.1;Dbxref=NCBI_GP:AAL33340.1;Name=AAL33340.1;Note=VP62%2C envelope protein;gbkey=CDS;product=wsv338;protein_id=AAL33340.1
+AF332093.3	Genbank	CDS	199280	200131	.	-	0	ID=cds-AAL33341.1;Dbxref=NCBI_GP:AAL33341.1;Name=AAL33341.1;Note=VP39%2C envelope protein;gbkey=CDS;product=wsv339;protein_id=AAL33341.1
+AF332093.3	Genbank	CDS	200135	200920	.	-	0	ID=cds-AAL33342.1;Dbxref=NCBI_GP:AAL33342.1;Name=AAL33342.1;Note=VP31%2C envelope protein;gbkey=CDS;product=wsv340;protein_id=AAL33342.1
+AF332093.3	Genbank	CDS	200313	200546	.	+	0	ID=cds-AAL33343.1;Dbxref=NCBI_GP:AAL33343.1;Name=AAL33343.1;gbkey=CDS;product=wsv341;protein_id=AAL33343.1
+AF332093.3	Genbank	CDS	201023	201325	.	-	0	ID=cds-AAL33344.1;Dbxref=NCBI_GP:AAL33344.1;Name=AAL33344.1;gbkey=CDS;product=wsv342;protein_id=AAL33344.1
+AF332093.3	Genbank	CDS	201428	213970	.	-	0	ID=cds-AIX03679.1;Dbxref=NCBI_GP:AIX03679.1;Name=AIX03679.1;gbkey=CDS;product=wsv343;protein_id=AIX03679.1
+AF332093.3	Genbank	CDS	201849	202148	.	+	0	ID=cds-AAL33346.1;Dbxref=NCBI_GP:AAL33346.1;Name=AAL33346.1;gbkey=CDS;product=wsv344;protein_id=AAL33346.1
+AF332093.3	Genbank	CDS	202842	203480	.	+	0	ID=cds-AAL33347.1;Dbxref=NCBI_GP:AAL33347.1;Name=AAL33347.1;gbkey=CDS;product=wsv345;protein_id=AAL33347.1
+AF332093.3	Genbank	CDS	202946	203146	.	+	0	ID=cds-AAL33348.1;Dbxref=NCBI_GP:AAL33348.1;Name=AAL33348.1;gbkey=CDS;product=wsv346;protein_id=AAL33348.1
+AF332093.3	Genbank	CDS	203490	203699	.	+	0	ID=cds-AAL33349.1;Dbxref=NCBI_GP:AAL33349.1;Name=AAL33349.1;gbkey=CDS;product=wsv347;protein_id=AAL33349.1
+AF332093.3	Genbank	CDS	203856	204107	.	+	0	ID=cds-AAL33350.1;Dbxref=NCBI_GP:AAL33350.1;Name=AAL33350.1;gbkey=CDS;product=wsv348;protein_id=AAL33350.1
+AF332093.3	Genbank	CDS	204138	204410	.	+	0	ID=cds-AAL33351.1;Dbxref=NCBI_GP:AAL33351.1;Name=AAL33351.1;gbkey=CDS;product=wsv349;protein_id=AAL33351.1
+AF332093.3	Genbank	CDS	204450	204893	.	+	0	ID=cds-AAL33352.1;Dbxref=NCBI_GP:AAL33352.1;Name=AAL33352.1;gbkey=CDS;product=wsv350;protein_id=AAL33352.1
+AF332093.3	Genbank	CDS	205216	205413	.	-	0	ID=cds-AIX03680.1;Dbxref=NCBI_GP:AIX03680.1;Name=AIX03680.1;gbkey=CDS;product=wsv351;protein_id=AIX03680.1
+AF332093.3	Genbank	CDS	207770	208045	.	+	0	ID=cds-AAL33354.1;Dbxref=NCBI_GP:AAL33354.1;Name=AAL33354.1;gbkey=CDS;product=wsv352;protein_id=AAL33354.1
+AF332093.3	Genbank	CDS	209298	209573	.	+	0	ID=cds-AAL33355.1;Dbxref=NCBI_GP:AAL33355.1;Name=AAL33355.1;gbkey=CDS;product=wsv353;protein_id=AAL33355.1
+AF332093.3	Genbank	CDS	209916	210179	.	+	0	ID=cds-AAL33356.1;Dbxref=NCBI_GP:AAL33356.1;Name=AAL33356.1;gbkey=CDS;product=wsv354;protein_id=AAL33356.1
+AF332093.3	Genbank	CDS	210519	211022	.	+	0	ID=cds-AAL33357.1;Dbxref=NCBI_GP:AAL33357.1;Name=AAL33357.1;gbkey=CDS;product=wsv355;protein_id=AAL33357.1
+AF332093.3	Genbank	CDS	211782	212036	.	+	0	ID=cds-AAL33358.1;Dbxref=NCBI_GP:AAL33358.1;Name=AAL33358.1;gbkey=CDS;product=wsv356;protein_id=AAL33358.1
+AF332093.3	Genbank	CDS	212235	212480	.	+	0	ID=cds-AAL33359.1;Dbxref=NCBI_GP:AAL33359.1;Name=AAL33359.1;gbkey=CDS;product=wsv357;protein_id=AAL33359.1
+AF332093.3	Genbank	CDS	212401	212613	.	-	0	ID=cds-AAL33360.1;Dbxref=NCBI_GP:AAL33360.1;Name=AAL33360.1;gbkey=CDS;product=wsv358;protein_id=AAL33360.1
+AF332093.3	Genbank	CDS	212532	212714	.	+	0	ID=cds-AAL33361.1;Dbxref=NCBI_GP:AAL33361.1;Name=AAL33361.1;gbkey=CDS;product=wsv359;protein_id=AAL33361.1
+AF332093.3	Genbank	CDS	214244	232477	.	+	0	ID=cds-AIX03681.1;Dbxref=NCBI_GP:AIX03681.1;Name=AIX03681.1;Note=VP664%2C capsid protein;gbkey=CDS;product=wsv360;protein_id=AIX03681.1
+AF332093.3	Genbank	CDS	215221	215586	.	-	0	ID=cds-AAL33363.1;Dbxref=NCBI_GP:AAL33363.1;Name=AAL33363.1;gbkey=CDS;product=wsv361;protein_id=AAL33363.1
+AF332093.3	Genbank	CDS	216148	216519	.	-	0	ID=cds-AAL33364.1;Dbxref=NCBI_GP:AAL33364.1;Name=AAL33364.1;gbkey=CDS;product=wsv362;protein_id=AAL33364.1
+AF332093.3	Genbank	CDS	216592	216873	.	-	0	ID=cds-AAL33365.1;Dbxref=NCBI_GP:AAL33365.1;Name=AAL33365.1;gbkey=CDS;product=wsv363;protein_id=AAL33365.1
+AF332093.3	Genbank	CDS	219256	219468	.	-	0	ID=cds-AAL33366.1;Dbxref=NCBI_GP:AAL33366.1;Name=AAL33366.1;gbkey=CDS;product=wsv364;protein_id=AAL33366.1
+AF332093.3	Genbank	CDS	219293	219508	.	-	0	ID=cds-AAL33367.1;Dbxref=NCBI_GP:AAL33367.1;Name=AAL33367.1;gbkey=CDS;product=wsv365;protein_id=AAL33367.1
+AF332093.3	Genbank	CDS	221250	221501	.	+	0	ID=cds-AAL33368.1;Dbxref=NCBI_GP:AAL33368.1;Name=AAL33368.1;gbkey=CDS;product=wsv366;protein_id=AAL33368.1
+AF332093.3	Genbank	CDS	221455	221742	.	-	0	ID=cds-AAL33369.1;Dbxref=NCBI_GP:AAL33369.1;Name=AAL33369.1;gbkey=CDS;product=wsv367;protein_id=AAL33369.1
+AF332093.3	Genbank	CDS	222229	222426	.	-	0	ID=cds-AAL33370.1;Dbxref=NCBI_GP:AAL33370.1;Name=AAL33370.1;gbkey=CDS;product=wsv368;protein_id=AAL33370.1
+AF332093.3	Genbank	CDS	222325	222516	.	+	0	ID=cds-AAL33371.1;Dbxref=NCBI_GP:AAL33371.1;Name=AAL33371.1;gbkey=CDS;product=wsv369;protein_id=AAL33371.1
+AF332093.3	Genbank	CDS	222862	223089	.	-	0	ID=cds-AAL33372.1;Dbxref=NCBI_GP:AAL33372.1;Name=AAL33372.1;gbkey=CDS;product=wsv370;protein_id=AAL33372.1
+AF332093.3	Genbank	CDS	223276	223497	.	-	0	ID=cds-AAL33373.1;Dbxref=NCBI_GP:AAL33373.1;Name=AAL33373.1;gbkey=CDS;product=wsv371;protein_id=AAL33373.1
+AF332093.3	Genbank	CDS	223978	224187	.	-	0	ID=cds-AAL33374.1;Dbxref=NCBI_GP:AAL33374.1;Name=AAL33374.1;gbkey=CDS;product=wsv372;protein_id=AAL33374.1
+AF332093.3	Genbank	CDS	224515	224919	.	-	0	ID=cds-AAL33375.1;Dbxref=NCBI_GP:AAL33375.1;Name=AAL33375.1;gbkey=CDS;product=wsv373;protein_id=AAL33375.1
+AF332093.3	Genbank	CDS	226734	227075	.	+	0	ID=cds-AAL33376.1;Dbxref=NCBI_GP:AAL33376.1;Name=AAL33376.1;gbkey=CDS;product=wsv374;protein_id=AAL33376.1
+AF332093.3	Genbank	CDS	226762	226965	.	-	0	ID=cds-AAL33377.1;Dbxref=NCBI_GP:AAL33377.1;Name=AAL33377.1;gbkey=CDS;product=wsv375;protein_id=AAL33377.1
+AF332093.3	Genbank	CDS	228124	228771	.	-	0	ID=cds-AAL33378.1;Dbxref=NCBI_GP:AAL33378.1;Name=AAL33378.1;gbkey=CDS;product=wsv376;protein_id=AAL33378.1
+AF332093.3	Genbank	CDS	229104	229295	.	+	0	ID=cds-AAL33379.1;Dbxref=NCBI_GP:AAL33379.1;Name=AAL33379.1;gbkey=CDS;product=wsv377;protein_id=AAL33379.1
+AF332093.3	Genbank	CDS	229971	230162	.	+	0	ID=cds-AAL33380.1;Dbxref=NCBI_GP:AAL33380.1;Name=AAL33380.1;gbkey=CDS;product=wsv378;protein_id=AAL33380.1
+AF332093.3	Genbank	CDS	230374	230607	.	-	0	ID=cds-AAL33381.1;Dbxref=NCBI_GP:AAL33381.1;Name=AAL33381.1;gbkey=CDS;product=wsv379;protein_id=AAL33381.1
+AF332093.3	Genbank	CDS	230462	230644	.	-	0	ID=cds-AAL33382.1;Dbxref=NCBI_GP:AAL33382.1;Name=AAL33382.1;gbkey=CDS;product=wsv380;protein_id=AAL33382.1
+AF332093.3	Genbank	CDS	230487	230831	.	+	0	ID=cds-AAL33383.1;Dbxref=NCBI_GP:AAL33383.1;Name=AAL33383.1;gbkey=CDS;product=wsv381;protein_id=AAL33383.1
+AF332093.3	Genbank	CDS	230914	231153	.	-	0	ID=cds-AAL33384.1;Dbxref=NCBI_GP:AAL33384.1;Name=AAL33384.1;gbkey=CDS;product=wsv382;protein_id=AAL33384.1
+AF332093.3	Genbank	CDS	231226	231630	.	-	0	ID=cds-AAL33385.1;Dbxref=NCBI_GP:AAL33385.1;Name=AAL33385.1;gbkey=CDS;product=wsv383;protein_id=AAL33385.1
+AF332093.3	Genbank	CDS	231267	231614	.	+	0	ID=cds-AAL33386.1;Dbxref=NCBI_GP:AAL33386.1;Name=AAL33386.1;gbkey=CDS;product=wsv384;protein_id=AAL33386.1
+AF332093.3	Genbank	CDS	232026	232214	.	+	0	ID=cds-AAL33387.1;Dbxref=NCBI_GP:AAL33387.1;Name=AAL33387.1;gbkey=CDS;product=wsv385;protein_id=AAL33387.1
+AF332093.3	Genbank	CDS	232618	232824	.	-	0	ID=cds-AAL33388.1;Dbxref=NCBI_GP:AAL33388.1;Name=AAL33388.1;Note=VP12B%2C envelope protein;gbkey=CDS;product=wsv386;protein_id=AAL33388.1
+AF332093.3	Genbank	CDS	233003	235192	.	+	0	ID=cds-AAL33389.1;Dbxref=NCBI_GP:AAL33389.1;Name=AAL33389.1;gbkey=CDS;product=wsv387;protein_id=AAL33389.1
+AF332093.3	Genbank	CDS	234415	234651	.	-	0	ID=cds-AAL33390.1;Dbxref=NCBI_GP:AAL33390.1;Name=AAL33390.1;gbkey=CDS;product=wsv388;protein_id=AAL33390.1
+AF332093.3	Genbank	CDS	235091	235318	.	-	0	ID=cds-AAL33391.1;Dbxref=NCBI_GP:AAL33391.1;Name=AAL33391.1;gbkey=CDS;product=wsv389;protein_id=AAL33391.1
+AF332093.3	Genbank	CDS	235245	236210	.	+	0	ID=cds-AIX03682.1;Dbxref=NCBI_GP:AIX03682.1;Name=AIX03682.1;Note=anti-apoptosis protein;gbkey=CDS;product=wsv390;protein_id=AIX03682.1
+AF332093.3	Genbank	CDS	235306	235512	.	+	0	ID=cds-AIX03683.1;Dbxref=NCBI_GP:AIX03683.1;Name=AIX03683.1;gbkey=CDS;product=wsv391;protein_id=AIX03683.1
+AF332093.3	Genbank	CDS	235663	235953	.	-	0	ID=cds-AAL33394.1;Dbxref=NCBI_GP:AAL33394.1;Name=AAL33394.1;gbkey=CDS;product=wsv392;protein_id=AAL33394.1
+AF332093.3	Genbank	CDS	236015	236254	.	-	0	ID=cds-AAL33395.1;Dbxref=NCBI_GP:AAL33395.1;Name=AAL33395.1;gbkey=CDS;product=wsv393;protein_id=AAL33395.1
+AF332093.3	Genbank	CDS	236050	236355	.	+	0	ID=cds-AAL33396.1;Dbxref=NCBI_GP:AAL33396.1;Name=AAL33396.1;gbkey=CDS;product=wsv394;protein_id=AAL33396.1
+AF332093.3	Genbank	CDS	236231	237427	.	+	0	ID=cds-AAL33397.1;Dbxref=NCBI_GP:AAL33397.1;Name=AAL33397.1;Note=TK-TMK%2C chimeric thymidine and thymidylate kinase;gbkey=CDS;product=wsv395;protein_id=AAL33397.1
+AF332093.3	Genbank	CDS	236669	236962	.	-	0	ID=cds-AAL33398.1;Dbxref=NCBI_GP:AAL33398.1;Name=AAL33398.1;gbkey=CDS;product=wsv396;protein_id=AAL33398.1
+AF332093.3	Genbank	CDS	237447	237962	.	+	0	ID=cds-AIX03684.1;Dbxref=NCBI_GP:AIX03684.1;Name=AIX03684.1;gbkey=CDS;product=wsv397;protein_id=AIX03684.1
+AF332093.3	Genbank	CDS	238011	238394	.	+	0	ID=cds-AAL33400.1;Dbxref=NCBI_GP:AAL33400.1;Name=AAL33400.1;gbkey=CDS;product=wsv398;protein_id=AAL33400.1
+AF332093.3	Genbank	CDS	238407	238958	.	-	0	ID=cds-AAL33401.1;Dbxref=NCBI_GP:AAL33401.1;Name=AAL33401.1;gbkey=CDS;product=wsv399;protein_id=AAL33401.1
+AF332093.3	Genbank	CDS	238678	238881	.	+	0	ID=cds-AAL33402.1;Dbxref=NCBI_GP:AAL33402.1;Name=AAL33402.1;gbkey=CDS;product=wsv400;protein_id=AAL33402.1
+AF332093.3	Genbank	CDS	238682	238915	.	+	0	ID=cds-AAL33403.1;Dbxref=NCBI_GP:AAL33403.1;Name=AAL33403.1;gbkey=CDS;product=wsv401;protein_id=AAL33403.1
+AF332093.3	Genbank	CDS	240548	240745	.	-	0	ID=cds-AAL33404.1;Dbxref=NCBI_GP:AAL33404.1;Name=AAL33404.1;gbkey=CDS;product=wsv402;protein_id=AAL33404.1
+AF332093.3	Genbank	CDS	241307	243232	.	+	0	ID=cds-AAL33416.2;Dbxref=NCBI_GP:AAL33416.2;Name=AAL33416.2;Note=E3 ligase%2C immediate-early protein;gbkey=CDS;product=wsv403;protein_id=AAL33416.2
+AF332093.3	Genbank	CDS	242303	242500	.	-	0	ID=cds-AAL33406.1;Dbxref=NCBI_GP:AAL33406.1;Name=AAL33406.1;gbkey=CDS;product=wsv404;protein_id=AAL33406.1
+AF332093.3	Genbank	CDS	242332	242886	.	-	0	ID=cds-AIX03685.1;Dbxref=NCBI_GP:AIX03685.1;Name=AIX03685.1;gbkey=CDS;product=wsv405;protein_id=AIX03685.1
+AF332093.3	Genbank	CDS	243287	244066	.	+	0	ID=cds-AAL33408.1;Dbxref=NCBI_GP:AAL33408.1;Name=AAL33408.1;gbkey=CDS;product=wsv406;protein_id=AAL33408.1
+AF332093.3	Genbank	CDS	244084	244767	.	-	0	ID=cds-AAL33409.1;Dbxref=NCBI_GP:AAL33409.1;Name=AAL33409.1;gbkey=CDS;product=wsv407;protein_id=AAL33409.1
+AF332093.3	Genbank	CDS	244219	244419	.	+	0	ID=cds-AAL33410.1;Dbxref=NCBI_GP:AAL33410.1;Name=AAL33410.1;gbkey=CDS;product=wsv408;protein_id=AAL33410.1
+AF332093.3	Genbank	CDS	244241	244459	.	+	0	ID=cds-AAL33411.1;Dbxref=NCBI_GP:AAL33411.1;Name=AAL33411.1;gbkey=CDS;product=wsv409;protein_id=AAL33411.1
+AF332093.3	Genbank	CDS	244658	244858	.	+	0	ID=cds-AAL33412.1;Dbxref=NCBI_GP:AAL33412.1;Name=AAL33412.1;gbkey=CDS;product=wsv410;protein_id=AAL33412.1
+AF332093.3	Genbank	CDS	245050	245244	.	-	0	ID=cds-AAL33413.1;Dbxref=NCBI_GP:AAL33413.1;Name=AAL33413.1;gbkey=CDS;product=wsv411;protein_id=AAL33413.1
+AF332093.3	Genbank	CDS	245341	245820	.	+	0	ID=cds-AAL33414.1;Dbxref=NCBI_GP:AAL33414.1;Name=AAL33414.1;gbkey=CDS;product=wsv412;protein_id=AAL33414.1
+AF332093.3	Genbank	CDS	245780	246133	.	+	0	ID=cds-AAL33415.1;Dbxref=NCBI_GP:AAL33415.1;Name=AAL33415.1;gbkey=CDS;product=wsv413;protein_id=AAL33415.1
+AF332093.3	Genbank	CDS	245900	246265	.	-	0	ID=cds-AIX03686.1;Dbxref=NCBI_GP:AIX03686.1;Name=AIX03686.1;Note=VP19%2C envelope protein;gbkey=CDS;product=wsv414;protein_id=AIX03686.1
+AF332093.3	Genbank	CDS	246403	248037	.	+	0	ID=cds-AAL33417.1;Dbxref=NCBI_GP:AAL33417.1;Name=AAL33417.1;Note=VP60%2C capsid protein;gbkey=CDS;product=wsv415;protein_id=AAL33417.1
+AF332093.3	Genbank	CDS	246558	246986	.	-	0	ID=cds-AAL33418.1;Dbxref=NCBI_GP:AAL33418.1;Name=AAL33418.1;gbkey=CDS;product=wsv416;protein_id=AAL33418.1
+AF332093.3	Genbank	CDS	246568	246807	.	-	0	ID=cds-AAL33419.1;Dbxref=NCBI_GP:AAL33419.1;Name=AAL33419.1;gbkey=CDS;product=wsv417;protein_id=AAL33419.1
+AF332093.3	Genbank	CDS	247200	247886	.	-	0	ID=cds-AAL33420.1;Dbxref=NCBI_GP:AAL33420.1;Name=AAL33420.1;gbkey=CDS;product=wsv418;protein_id=AAL33420.1
+AF332093.3	Genbank	CDS	247845	248426	.	+	0	ID=cds-AAL33421.1;Dbxref=NCBI_GP:AAL33421.1;Name=AAL33421.1;gbkey=CDS;product=wsv419;protein_id=AAL33421.1
+AF332093.3	Genbank	CDS	248413	248706	.	+	0	ID=cds-AAL33422.1;Dbxref=NCBI_GP:AAL33422.1;Name=AAL33422.1;gbkey=CDS;product=wsv420;protein_id=AAL33422.1
+AF332093.3	Genbank	CDS	248870	249484	.	+	0	ID=cds-AAL33423.1;Dbxref=NCBI_GP:AAL33423.1;Name=AAL33423.1;Note=VP28%2C envelope protein;gbkey=CDS;product=wsv421;protein_id=AAL33423.1
+AF332093.3	Genbank	CDS	249058	249444	.	-	0	ID=cds-AAL33424.1;Dbxref=NCBI_GP:AAL33424.1;Name=AAL33424.1;gbkey=CDS;product=wsv422;protein_id=AAL33424.1
+AF332093.3	Genbank	CDS	249579	251771	.	-	0	ID=cds-AAL33425.1;Dbxref=NCBI_GP:AAL33425.1;Name=AAL33425.1;Note=putative protein kinase;gbkey=CDS;product=wsv423;protein_id=AAL33425.1
+AF332093.3	Genbank	CDS	250270	250467	.	+	0	ID=cds-AAL33426.1;Dbxref=NCBI_GP:AAL33426.1;Name=AAL33426.1;gbkey=CDS;product=wsv424;protein_id=AAL33426.1
+AF332093.3	Genbank	CDS	250774	250983	.	+	0	ID=cds-AAL33427.1;Dbxref=NCBI_GP:AAL33427.1;Name=AAL33427.1;gbkey=CDS;product=wsv425;protein_id=AAL33427.1
+AF332093.3	Genbank	CDS	251217	251414	.	+	0	ID=cds-AAL33428.1;Dbxref=NCBI_GP:AAL33428.1;Name=AAL33428.1;gbkey=CDS;product=wsv426;protein_id=AAL33428.1
+AF332093.3	Genbank	CDS	251987	253858	.	-	0	ID=cds-AAL33429.1;Dbxref=NCBI_GP:AAL33429.1;Name=AAL33429.1;gbkey=CDS;product=wsv427;protein_id=AAL33429.1
+AF332093.3	Genbank	CDS	252165	252353	.	+	0	ID=cds-AAL33430.1;Dbxref=NCBI_GP:AAL33430.1;Name=AAL33430.1;gbkey=CDS;product=wsv428;protein_id=AAL33430.1
+AF332093.3	Genbank	CDS	252450	252803	.	+	0	ID=cds-AAL33431.1;Dbxref=NCBI_GP:AAL33431.1;Name=AAL33431.1;gbkey=CDS;product=wsv429;protein_id=AAL33431.1
+AF332093.3	Genbank	CDS	252894	253103	.	+	0	ID=cds-AAL33432.1;Dbxref=NCBI_GP:AAL33432.1;Name=AAL33432.1;gbkey=CDS;product=wsv430;protein_id=AAL33432.1
+AF332093.3	Genbank	CDS	253248	253532	.	+	0	ID=cds-AAL33433.1;Dbxref=NCBI_GP:AAL33433.1;Name=AAL33433.1;gbkey=CDS;product=wsv431;protein_id=AAL33433.1
+AF332093.3	Genbank	CDS	253779	254087	.	+	0	ID=cds-AAL33434.1;Dbxref=NCBI_GP:AAL33434.1;Name=AAL33434.1;gbkey=CDS;product=wsv432;protein_id=AAL33434.1
+AF332093.3	Genbank	CDS	254054	257839	.	+	0	ID=cds-AAL33435.1;Dbxref=NCBI_GP:AAL33435.1;Name=AAL33435.1;gbkey=CDS;product=wsv433;protein_id=AAL33435.1
+AF332093.3	Genbank	CDS	254422	254850	.	-	0	ID=cds-AAL33436.1;Dbxref=NCBI_GP:AAL33436.1;Name=AAL33436.1;gbkey=CDS;product=wsv434;protein_id=AAL33436.1
+AF332093.3	Genbank	CDS	254835	255017	.	+	0	ID=cds-AAL33437.1;Dbxref=NCBI_GP:AAL33437.1;Name=AAL33437.1;gbkey=CDS;product=wsv435;protein_id=AAL33437.1
+AF332093.3	Genbank	CDS	255517	255888	.	-	0	ID=cds-AAL33438.1;Dbxref=NCBI_GP:AAL33438.1;Name=AAL33438.1;gbkey=CDS;product=wsv436;protein_id=AAL33438.1
+AF332093.3	Genbank	CDS	256418	256612	.	-	0	ID=cds-AAL33533.1;Dbxref=NCBI_GP:AAL33533.1;Name=AAL33533.1;gbkey=CDS;product=wsv437;protein_id=AAL33533.1
+AF332093.3	Genbank	CDS	256857	257072	.	+	0	ID=cds-AAL33439.1;Dbxref=NCBI_GP:AAL33439.1;Name=AAL33439.1;gbkey=CDS;product=wsv438;protein_id=AAL33439.1
+AF332093.3	Genbank	CDS	257596	257829	.	-	0	ID=cds-AAL33440.1;Dbxref=NCBI_GP:AAL33440.1;Name=AAL33440.1;gbkey=CDS;product=wsv439;protein_id=AAL33440.1
+AF332093.3	Genbank	CDS	257925	259748	.	+	0	ID=cds-AAL33441.1;Dbxref=NCBI_GP:AAL33441.1;Name=AAL33441.1;gbkey=CDS;product=wsv440;protein_id=AAL33441.1
+AF332093.3	Genbank	CDS	259394	259666	.	-	0	ID=cds-AAL33442.1;Dbxref=NCBI_GP:AAL33442.1;Name=AAL33442.1;gbkey=CDS;product=wsv441;protein_id=AAL33442.1
+AF332093.3	Genbank	CDS	259703	262105	.	+	0	ID=cds-AAL33443.1;Dbxref=NCBI_GP:AAL33443.1;Name=AAL33443.1;Note=VP95%2C envelope %26 capsid protein;gbkey=CDS;product=wsv442;protein_id=AAL33443.1
+AF332093.3	Genbank	CDS	260329	260691	.	-	0	ID=cds-AAL33444.1;Dbxref=NCBI_GP:AAL33444.1;Name=AAL33444.1;gbkey=CDS;product=wsv443;protein_id=AAL33444.1
+AF332093.3	Genbank	CDS	261154	261495	.	-	0	ID=cds-AAL33445.1;Dbxref=NCBI_GP:AAL33445.1;Name=AAL33445.1;gbkey=CDS;product=wsv444;protein_id=AAL33445.1
+AF332093.3	Genbank	CDS	261907	262161	.	-	0	ID=cds-AAL33446.1;Dbxref=NCBI_GP:AAL33446.1;Name=AAL33446.1;gbkey=CDS;product=wsv445;protein_id=AAL33446.1
+AF332093.3	Genbank	CDS	262180	263760	.	+	0	ID=cds-AAL33447.1;Dbxref=NCBI_GP:AAL33447.1;Name=AAL33447.1;gbkey=CDS;product=wsv446;protein_id=AAL33447.1
+AF332093.3	Genbank	CDS	263793	269597	.	-	0	ID=cds-AIX03687.1;Dbxref=NCBI_GP:AIX03687.1;Name=AIX03687.1;gbkey=CDS;product=wsv447;protein_id=AIX03687.1
+AF332093.3	Genbank	CDS	263851	264186	.	+	0	ID=cds-AAL33449.1;Dbxref=NCBI_GP:AAL33449.1;Name=AAL33449.1;gbkey=CDS;product=wsv448;protein_id=AAL33449.1
+AF332093.3	Genbank	CDS	265542	265787	.	+	0	ID=cds-AAL33450.1;Dbxref=NCBI_GP:AAL33450.1;Name=AAL33450.1;gbkey=CDS;product=wsv449;protein_id=AAL33450.1
+AF332093.3	Genbank	CDS	266119	266592	.	+	0	ID=cds-AAL33451.1;Dbxref=NCBI_GP:AAL33451.1;Name=AAL33451.1;gbkey=CDS;product=wsv450;protein_id=AAL33451.1
+AF332093.3	Genbank	CDS	266974	267243	.	+	0	ID=cds-AIX03688.1;Dbxref=NCBI_GP:AIX03688.1;Name=AIX03688.1;gbkey=CDS;product=wsv451;protein_id=AIX03688.1
+AF332093.3	Genbank	CDS	267278	267526	.	+	0	ID=cds-AAL33453.1;Dbxref=NCBI_GP:AAL33453.1;Name=AAL33453.1;gbkey=CDS;product=wsv452;protein_id=AAL33453.1
+AF332093.3	Genbank	CDS	268102	268716	.	+	0	ID=cds-AAL33454.1;Dbxref=NCBI_GP:AAL33454.1;Name=AAL33454.1;gbkey=CDS;product=wsv453;protein_id=AAL33454.1
+AF332093.3	Genbank	CDS	269250	269492	.	+	0	ID=cds-AAL33455.1;Dbxref=NCBI_GP:AAL33455.1;Name=AAL33455.1;gbkey=CDS;product=wsv454;protein_id=AAL33455.1
+AF332093.3	Genbank	CDS	269701	270222	.	+	0	ID=cds-AAL33456.1;Dbxref=NCBI_GP:AAL33456.1;Name=AAL33456.1;gbkey=CDS;product=wsv455;protein_id=AAL33456.1
+AF332093.3	Genbank	CDS	270173	270472	.	-	0	ID=cds-AAL33457.1;Dbxref=NCBI_GP:AAL33457.1;Name=AAL33457.1;gbkey=CDS;product=wsv456;protein_id=AAL33457.1
+AF332093.3	Genbank	CDS	270228	271025	.	+	0	ID=cds-AAL33458.1;Dbxref=NCBI_GP:AAL33458.1;Name=AAL33458.1;gbkey=CDS;product=wsv457;protein_id=AAL33458.1
+AF332093.3	Genbank	CDS	271044	271241	.	+	0	ID=cds-AAL33459.1;Dbxref=NCBI_GP:AAL33459.1;Name=AAL33459.1;gbkey=CDS;product=wsv458;protein_id=AAL33459.1
+AF332093.3	Genbank	CDS	271065	271460	.	-	0	ID=cds-AAL33460.1;Dbxref=NCBI_GP:AAL33460.1;Name=AAL33460.1;gbkey=CDS;product=wsv459;protein_id=AAL33460.1
+AF332093.3	Genbank	CDS	271096	271512	.	+	0	ID=cds-AAL33461.1;Dbxref=NCBI_GP:AAL33461.1;Name=AAL33461.1;gbkey=CDS;product=wsv460;protein_id=AAL33461.1
+AF332093.3	Genbank	CDS	271549	272022	.	-	0	ID=cds-AAL33462.1;Dbxref=NCBI_GP:AAL33462.1;Name=AAL33462.1;gbkey=CDS;product=wsv461;protein_id=AAL33462.1
+AF332093.3	Genbank	CDS	272021	272272	.	+	0	ID=cds-AAL33463.1;Dbxref=NCBI_GP:AAL33463.1;Name=AAL33463.1;gbkey=CDS;product=wsv462;protein_id=AAL33463.1
+AF332093.3	Genbank	CDS	272046	272276	.	-	0	ID=cds-AAL33464.1;Dbxref=NCBI_GP:AAL33464.1;Name=AAL33464.1;gbkey=CDS;product=wsv463;protein_id=AAL33464.1
+AF332093.3	Genbank	CDS	272340	273206	.	-	0	ID=cds-AAL33465.1;Dbxref=NCBI_GP:AAL33465.1;Name=AAL33465.1;gbkey=CDS;product=wsv464;protein_id=AAL33465.1
+AF332093.3	Genbank	CDS	273314	277045	.	-	0	ID=cds-AIX03689.1;Dbxref=NCBI_GP:AIX03689.1;Name=AIX03689.1;Note=immediate-early protein;gbkey=CDS;product=wsv465;protein_id=AIX03689.1
+AF332093.3	Genbank	CDS	273561	273749	.	+	0	ID=cds-AAL33467.1;Dbxref=NCBI_GP:AAL33467.1;Name=AAL33467.1;gbkey=CDS;product=wsv466;protein_id=AAL33467.1
+AF332093.3	Genbank	CDS	273894	274130	.	+	0	ID=cds-AAL33468.1;Dbxref=NCBI_GP:AAL33468.1;Name=AAL33468.1;gbkey=CDS;product=wsv467;protein_id=AAL33468.1
+AF332093.3	Genbank	CDS	274303	274584	.	+	0	ID=cds-AAL33469.1;Dbxref=NCBI_GP:AAL33469.1;Name=AAL33469.1;gbkey=CDS;product=wsv468;protein_id=AAL33469.1
+AF332093.3	Genbank	CDS	275031	275261	.	+	0	ID=cds-AAL33470.1;Dbxref=NCBI_GP:AAL33470.1;Name=AAL33470.1;gbkey=CDS;product=wsv469;protein_id=AAL33470.1
+AF332093.3	Genbank	CDS	276306	276581	.	+	0	ID=cds-AIX03690.1;Dbxref=NCBI_GP:AIX03690.1;Name=AIX03690.1;gbkey=CDS;product=wsv470;protein_id=AIX03690.1
+AF332093.3	Genbank	CDS	276744	277073	.	+	0	ID=cds-AIX03691.1;Dbxref=NCBI_GP:AIX03691.1;Name=AIX03691.1;gbkey=CDS;product=wsv471;protein_id=AIX03691.1
+AF332093.3	Genbank	CDS	276993	277202	.	-	0	ID=cds-AAL33473.1;Dbxref=NCBI_GP:AAL33473.1;Name=AAL33473.1;gbkey=CDS;product=wsv472;protein_id=AAL33473.1
+AF332093.3	Genbank	CDS	277073	277345	.	+	0	ID=cds-AAL33474.1;Dbxref=NCBI_GP:AAL33474.1;Name=AAL33474.1;gbkey=CDS;product=wsv473;protein_id=AAL33474.1
+AF332093.3	Genbank	CDS	277809	278009	.	+	0	ID=cds-AAL33475.1;Dbxref=NCBI_GP:AAL33475.1;Name=AAL33475.1;gbkey=CDS;product=wsv474;protein_id=AAL33475.1
+AF332093.3	Genbank	CDS	278006	278191	.	-	0	ID=cds-AAL33476.1;Dbxref=NCBI_GP:AAL33476.1;Name=AAL33476.1;gbkey=CDS;product=wsv475;protein_id=AAL33476.1
+AF332093.3	Genbank	CDS	278657	278872	.	-	0	ID=cds-AAL33477.1;Dbxref=NCBI_GP:AAL33477.1;Name=AAL33477.1;gbkey=CDS;product=wsv476;protein_id=AAL33477.1
+AF332093.3	Genbank	CDS	279149	279775	.	+	0	ID=cds-AAL33478.1;Dbxref=NCBI_GP:AAL33478.1;Name=AAL33478.1;gbkey=CDS;product=wsv477;protein_id=AAL33478.1
+AF332093.3	Genbank	CDS	279545	279766	.	-	0	ID=cds-AAL33479.1;Dbxref=NCBI_GP:AAL33479.1;Name=AAL33479.1;gbkey=CDS;product=wsv478;protein_id=AAL33479.1
+AF332093.3	Genbank	CDS	279829	281358	.	-	0	ID=cds-AAL33480.1;Dbxref=NCBI_GP:AAL33480.1;Name=AAL33480.1;gbkey=CDS;product=wsv479;protein_id=AAL33480.1
+AF332093.3	Genbank	CDS	280337	280669	.	+	0	ID=cds-AAL33481.1;Dbxref=NCBI_GP:AAL33481.1;Name=AAL33481.1;gbkey=CDS;product=wsv480;protein_id=AAL33481.1
+AF332093.3	Genbank	CDS	281196	281390	.	-	0	ID=cds-AAL33482.1;Dbxref=NCBI_GP:AAL33482.1;Name=AAL33482.1;gbkey=CDS;product=wsv481;protein_id=AAL33482.1
+AF332093.3	Genbank	CDS	281657	282196	.	+	0	ID=cds-AAL33483.1;Dbxref=NCBI_GP:AAL33483.1;Name=AAL33483.1;gbkey=CDS;product=wsv482;protein_id=AAL33483.1
+AF332093.3	Genbank	CDS	282327	282701	.	+	0	ID=cds-AAL33484.1;Dbxref=NCBI_GP:AAL33484.1;Name=AAL33484.1;gbkey=CDS;product=wsv483;protein_id=AAL33484.1
+AF332093.3	Genbank	CDS	282395	283045	.	-	0	ID=cds-AAL33485.1;Dbxref=NCBI_GP:AAL33485.1;Name=AAL33485.1;gbkey=CDS;product=wsv484;protein_id=AAL33485.1
+AF332093.3	Genbank	CDS	282844	283095	.	+	0	ID=cds-AAL33486.1;Dbxref=NCBI_GP:AAL33486.1;Name=AAL33486.1;gbkey=CDS;product=wsv485;protein_id=AAL33486.1
+AF332093.3	Genbank	CDS	283259	285598	.	+	0	ID=cds-AAL33487.1;Dbxref=NCBI_GP:AAL33487.1;Name=AAL33487.1;gbkey=CDS;product=wsv486;protein_id=AAL33487.1
+AF332093.3	Genbank	CDS	285276	285524	.	+	0	ID=cds-AAL33488.1;Dbxref=NCBI_GP:AAL33488.1;Name=AAL33488.1;gbkey=CDS;product=wsv487;protein_id=AAL33488.1
+AF332093.3	Genbank	CDS	285328	285516	.	+	0	ID=cds-AAL33489.1;Dbxref=NCBI_GP:AAL33489.1;Name=AAL33489.1;gbkey=CDS;product=wsv488;protein_id=AAL33489.1
+AF332093.3	Genbank	CDS	285750	286487	.	-	0	ID=cds-AAL33490.1;Dbxref=NCBI_GP:AAL33490.1;Name=AAL33490.1;gbkey=CDS;product=wsv489;protein_id=AAL33490.1
+AF332093.3	Genbank	CDS	286530	286868	.	-	0	ID=cds-AIX03692.1;Dbxref=NCBI_GP:AIX03692.1;Name=AIX03692.1;gbkey=CDS;product=wsv490;protein_id=AIX03692.1
+AF332093.3	Genbank	CDS	286797	287207	.	+	0	ID=cds-AIX03693.1;Dbxref=NCBI_GP:AIX03693.1;Name=AIX03693.1;gbkey=CDS;product=wsv492;protein_id=AIX03693.1
+AF332093.3	Genbank	CDS	287295	287981	.	-	0	ID=cds-AAL33494.1;Dbxref=NCBI_GP:AAL33494.1;Name=AAL33494.1;gbkey=CDS;product=wsv493;protein_id=AAL33494.1
+AF332093.3	Genbank	CDS	287584	287775	.	+	0	ID=cds-AAL33495.1;Dbxref=NCBI_GP:AAL33495.1;Name=AAL33495.1;gbkey=CDS;product=wsv494;protein_id=AAL33495.1
+AF332093.3	Genbank	CDS	288375	288635	.	+	0	ID=cds-AAL33496.1;Dbxref=NCBI_GP:AAL33496.1;Name=AAL33496.1;gbkey=CDS;product=wsv495;protein_id=AAL33496.1
+AF332093.3	Genbank	CDS	288693	288890	.	+	0	ID=cds-AAL33497.1;Dbxref=NCBI_GP:AAL33497.1;Name=AAL33497.1;gbkey=CDS;product=wsv496;protein_id=AAL33497.1
+AF332093.3	Genbank	CDS	288697	290394	.	-	0	ID=cds-AAL33498.1;Dbxref=NCBI_GP:AAL33498.1;Name=AAL33498.1;gbkey=CDS;product=wsv497;protein_id=AAL33498.1
+AF332093.3	Genbank	CDS	288710	289015	.	+	0	ID=cds-AAL33499.1;Dbxref=NCBI_GP:AAL33499.1;Name=AAL33499.1;gbkey=CDS;product=wsv498;protein_id=AAL33499.1
+AF332093.3	Genbank	CDS	289034	289300	.	+	0	ID=cds-AAL33500.1;Dbxref=NCBI_GP:AAL33500.1;Name=AAL33500.1;gbkey=CDS;product=wsv499;protein_id=AAL33500.1
+AF332093.3	Genbank	CDS	290698	291327	.	-	0	ID=cds-AAL33501.1;Dbxref=NCBI_GP:AAL33501.1;Name=AAL33501.1;gbkey=CDS;product=wsv500;protein_id=AAL33501.1
+AF332093.3	Genbank	CDS	290906	291190	.	-	0	ID=cds-AAL33502.1;Dbxref=NCBI_GP:AAL33502.1;Name=AAL33502.1;gbkey=CDS;product=wsv501;protein_id=AAL33502.1
+AF332093.3	Genbank	CDS	291227	294256	.	+	0	ID=cds-AAL33503.1;Dbxref=NCBI_GP:AAL33503.1;Name=AAL33503.1;gbkey=CDS;product=wsv502;protein_id=AAL33503.1
+AF332093.3	Genbank	CDS	291473	291715	.	-	0	ID=cds-AAL33504.1;Dbxref=NCBI_GP:AAL33504.1;Name=AAL33504.1;gbkey=CDS;product=wsv503;protein_id=AAL33504.1
+AF332093.3	Genbank	CDS	292554	292790	.	+	0	ID=cds-AAL33505.1;Dbxref=NCBI_GP:AAL33505.1;Name=AAL33505.1;gbkey=CDS;product=wsv504;protein_id=AAL33505.1
+AF332093.3	Genbank	CDS	292654	292851	.	-	0	ID=cds-AAL33506.1;Dbxref=NCBI_GP:AAL33506.1;Name=AAL33506.1;gbkey=CDS;product=wsv505;protein_id=AAL33506.1
+AF332093.3	Genbank	CDS	293809	294033	.	-	0	ID=cds-AAL33507.1;Dbxref=NCBI_GP:AAL33507.1;Name=AAL33507.1;gbkey=CDS;product=wsv506;protein_id=AAL33507.1
+AF332093.3	Genbank	CDS	294213	294509	.	+	0	ID=cds-AAL33508.1;Dbxref=NCBI_GP:AAL33508.1;Name=AAL33508.1;gbkey=CDS;product=wsv507;protein_id=AAL33508.1
+AF332093.3	Genbank	CDS	294303	295919	.	-	0	ID=cds-AAL33509.1;Dbxref=NCBI_GP:AAL33509.1;Name=AAL33509.1;gbkey=CDS;product=wsv508;protein_id=AAL33509.1
+AF332093.3	Genbank	CDS	294604	294825	.	+	0	ID=cds-AAL33510.1;Dbxref=NCBI_GP:AAL33510.1;Name=AAL33510.1;gbkey=CDS;product=wsv509;protein_id=AAL33510.1
+AF332093.3	Genbank	CDS	294773	295024	.	-	0	ID=cds-AAL33511.1;Dbxref=NCBI_GP:AAL33511.1;Name=AAL33511.1;gbkey=CDS;product=wsv510;protein_id=AAL33511.1
+AF332093.3	Genbank	CDS	296082	296288	.	+	0	ID=cds-AAL33512.1;Dbxref=NCBI_GP:AAL33512.1;Name=AAL33512.1;gbkey=CDS;product=wsv511;protein_id=AAL33512.1
+AF332093.3	Genbank	CDS	296226	296444	.	-	0	ID=cds-AAL33513.1;Dbxref=NCBI_GP:AAL33513.1;Name=AAL33513.1;gbkey=CDS;product=wsv512;protein_id=AAL33513.1
+AF332093.3	Genbank	CDS	296341	303396	.	+	0	ID=cds-AIX03694.1;Dbxref=NCBI_GP:AIX03694.1;Name=AIX03694.1;Note=DNA polymerase;gbkey=CDS;product=wsv514;protein_id=AIX03694.1
+AF332093.3	Genbank	CDS	297029	297214	.	+	0	ID=cds-AAL33516.1;Dbxref=NCBI_GP:AAL33516.1;Name=AAL33516.1;gbkey=CDS;product=wsv515;protein_id=AAL33516.1
+AF332093.3	Genbank	CDS	297473	297676	.	+	0	ID=cds-AAL33517.1;Dbxref=NCBI_GP:AAL33517.1;Name=AAL33517.1;gbkey=CDS;product=wsv516;protein_id=AAL33517.1
+AF332093.3	Genbank	CDS	297481	297669	.	-	0	ID=cds-AAL33518.1;Dbxref=NCBI_GP:AAL33518.1;Name=AAL33518.1;gbkey=CDS;product=wsv517;protein_id=AAL33518.1
+AF332093.3	Genbank	CDS	297894	298346	.	-	0	ID=cds-AAL33519.1;Dbxref=NCBI_GP:AAL33519.1;Name=AAL33519.1;gbkey=CDS;product=wsv518;protein_id=AAL33519.1
+AF332093.3	Genbank	CDS	298395	298595	.	-	0	ID=cds-AAL33520.1;Dbxref=NCBI_GP:AAL33520.1;Name=AAL33520.1;gbkey=CDS;product=wsv519;protein_id=AAL33520.1
+AF332093.3	Genbank	CDS	298438	298755	.	-	0	ID=cds-AAL33521.1;Dbxref=NCBI_GP:AAL33521.1;Name=AAL33521.1;gbkey=CDS;product=wsv520;protein_id=AAL33521.1
+AF332093.3	Genbank	CDS	299422	299643	.	-	0	ID=cds-AAL33522.1;Dbxref=NCBI_GP:AAL33522.1;Name=AAL33522.1;gbkey=CDS;product=wsv521;protein_id=AAL33522.1
+AF332093.3	Genbank	CDS	301872	302114	.	-	0	ID=cds-AAL33523.1;Dbxref=NCBI_GP:AAL33523.1;Name=AAL33523.1;gbkey=CDS;product=wsv522;protein_id=AAL33523.1
+AF332093.3	Genbank	CDS	302196	302456	.	-	0	ID=cds-AAL33524.1;Dbxref=NCBI_GP:AAL33524.1;Name=AAL33524.1;gbkey=CDS;product=wsv523;protein_id=AAL33524.1
+AF332093.3	Genbank	CDS	303142	303348	.	-	0	ID=cds-AAL33525.1;Dbxref=NCBI_GP:AAL33525.1;Name=AAL33525.1;gbkey=CDS;product=wsv524;protein_id=AAL33525.1
+AF332093.3	Genbank	CDS	303437	303652	.	-	0	ID=cds-AAL33526.1;Dbxref=NCBI_GP:AAL33526.1;Name=AAL33526.1;gbkey=CDS;product=wsv525;protein_id=AAL33526.1
+AF332093.3	Genbank	CDS	303705	305051	.	-	0	ID=cds-AAL33527.1;Dbxref=NCBI_GP:AAL33527.1;Name=AAL33527.1;gbkey=CDS;product=wsv526;protein_id=AAL33527.1
+
