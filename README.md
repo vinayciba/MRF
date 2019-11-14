@@ -37,8 +37,8 @@ To print usage
 	Usage:  run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
 	options: -m      mummer exact match length [default: 20]
-			     -o      output prefix [default: pre]
-			     -h      prints usage
+		 -o      output prefix [default: pre]
+		 -h      prints usage
 
 Use Cases:
 
