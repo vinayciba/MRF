@@ -20,7 +20,7 @@ To compare and list the missing coding sequences in a query genome with respect 
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
-	The above command generates two output files, pre_mr.txt and pre_mcr.txt.
+	The above command generates three output files, pre_mr.txt, pre_mcr.txt and pre_cpcr.txt.
 
 To compare and list the missing genomic regions in a query genome with respect to a reference genome.
 
