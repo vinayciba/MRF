@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MUM_LEN=20 
- OUTPUT_PREFIX=pre
+OUTPUT_PREFIX=pre
 usage() 
 
 {
@@ -44,7 +44,7 @@ awk '{ for(i=1;i<=NF;i++){if(i==NF){printf("%s\n",$NF);}else {printf("%s\t",$i)}
 ref_gen_len=`awk 'NR>1{s+=length()}END{print s}' $REFERENCE`;
 #echo $'\n';
 echo "Generating missing genomic regions..."
-perl generate_missing_genomic_regions.pl mum_new_formatted $ref_gen_len > $OUTPUT_PREFIX"_mr.txt";
+perl generate_missing_genomic_regions.pl mum_new_formatted $ref_gen_len $OUTPUT_PREFIX;
 echo "done"
 
 else
@@ -66,8 +66,8 @@ ref_gen_len=`awk 'NR>1{s+=length()}END{print s}' $REFERENCE`;
 #echo $'\n';
 
 echo "Generating missing regions and missing coding regions..."
-perl generate_missing_genomic_regions.pl mum_new_formatted $ref_gen_len >  $OUTPUT_PREFIX"_mr.txt";
-perl generate_missing_coding_sequences.pl mum_new_formatted $GFF3_FILE $ref_gen_len >  $OUTPUT_PREFIX"_mcr.txt";
+perl generate_missing_genomic_regions.pl mum_new_formatted $ref_gen_len $OUTPUT_PREFIX;
+perl generate_missing_coding_sequences.pl mum_new_formatted $GFF3_FILE $ref_gen_len $OUTPUT_PREFIX;
 echo "done"
 
 fi
