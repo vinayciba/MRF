@@ -1,9 +1,12 @@
+use List::MoreUtils qw(uniq);
+
 my $file = $ARGV[0];
 # This script takes mummer output and a reference GFF file as input and prints the completely and partially missing proteins
 # open a filehandle to data.txt
 open (IN, $file) or die("We have got a situation!! Problem with mummer output!!");
 # go through the file line by line    
 my $genome_size = $ARGV[2];
+my $output_prefix = $ARGV[3];
 chomp($genome_size);
 while (my $line = <IN>) 
 	{
@@ -29,6 +32,8 @@ my $genome_fin_start;
 my $count = scalar(@Ref_genome_start) - 1;
 my $count_act = scalar(@Ref_genome_start);
 my $Ref_init_end;
+my $cds_count =0;
+my @prot_par_count;
 
 # get the count of items in the array list of Ref_genome_start
 # and execute the loop for each item
@@ -66,6 +71,7 @@ for(my $i=0,$j=1;$i<scalar(@Ref_genome_start);$i++,$j++)
 #	$genome_gap = ($genome_size - $Ref_genome_end[$count]);
 	$curr_line = "$Ref_genome_start[$i]\t$Ref_genome_end[$i]\t$Query_genome_start[$i]\t$Query_genome_end[$i]\t$Non_hit_region[$i]\t$Q_genome_miss_start[$i]\t$Q_genome_miss_end[$i]";
 	$fin_line =  $fin_line . "\n" . $curr_line; 
+
 #	$genome_fin_start = $Ref_genome_end[$count] + 1;
 #	$end_line =  "0\t0\t0\t0\t$genome_gap\t$genome_fin_start\t$genome_size";
 	}
@@ -76,7 +82,7 @@ for(my $i=0,$j=1;$i<scalar(@Ref_genome_start);$i++,$j++)
 	$Q_genome_miss_end[$count_act] = $genome_size;
 
 	$end_line =  "0\t0\t0\t0\t$genome_gap\t$genome_fin_start\t$genome_size";
-$fin_line =~ s/^(.*\n)1}//;
+	$fin_line =~ s/^(.*\n)1}//;
 	if($genome_gap != 0)
 		{
 		$fin_line = $fin_line . "\n" . $end_line;
@@ -116,6 +122,7 @@ next if /^#/;
 	}
 foreach my $k (@CDS_start)
 	{
+my $miss = 0;
 if ($category[$cds] =~ m/CDS/)
 {
 	my ($pdt) = $trash[$cds] =~ m/product=([^=]+)\;/;
@@ -128,7 +135,7 @@ if ($category[$cds] =~ m/CDS/)
 		{
 		 		if ($Q_genome_miss_start[$a] != "")
 				{
-				if ($CDS_start[$cds] >= $Q_genome_miss_start[$a] && $CDS_end[$cds] <= $Q_genome_miss_end[$a])
+				if ($CDS_start[$cds] >= $Q_genome_miss_start[$a] && $CDS_end[$cds] <= $Q_genome_miss_end[$a]) #CONDITION 1: FETCHING COMPLETELY DELETED PROTEINS
 					{
 					my $cmr_len =0;
 					$cmr_len = $CDS_end[$cds] - $CDS_start[$cds] +1;
@@ -149,8 +156,9 @@ if ($category[$cds] =~ m/CDS/)
 							 $cmr_tmp = $CDS_end[$cds];
 						}
 					$cmr = $cmr . "\n" . $Q_genome_miss_start[$a] . "\t" . $Q_genome_miss_end[$a] .  "\t" . $CDS_start[$cds] . "\t" . $CDS_end[$cds] . "\t" . $cmr_len . "\t" . $pdt . "\t" . $protein_id . "\t" . $note . "\n";
+					$miss = 1;
 					}
-				if ($CDS_start[$cds] >= $Q_genome_miss_start[$a] && $CDS_start[$cds] <= $Q_genome_miss_end[$a] && $CDS_end[$cds] >= $Q_genome_miss_end[$a])
+				if ($CDS_start[$cds] >= $Q_genome_miss_start[$a] && $CDS_start[$cds] <= $Q_genome_miss_end[$a] && $CDS_end[$cds] >= $Q_genome_miss_end[$a]) #CONDITION 2: FETCHING PARTIALLY DELETED PROTEINS - CASE 1
 					{
 					my $pmr_len =0;
 					my $cds_len =0;
@@ -179,9 +187,11 @@ if ($category[$cds] =~ m/CDS/)
                                                 }
 
  						$pmr = $pmr . $Q_genome_miss_start[$a] . "\t" . $Q_genome_miss_end[$a] . "\t" . $pmr_len . "\t" . $cds_len . "\t" . $CDS_start[$cds] . "\t" . $CDS_end[$cds] . "\t" . $trim_cds_percent . "\t" . $pdt . "\t" . $protein_id . "\t" . $note . "\n";
+						$miss = 1;
+                                                push(@prot_par_count, $protein_id);
 						}
 					}
-				if ($CDS_start[$cds] < $Q_genome_miss_start[$a] && $CDS_end[$cds] >= $Q_genome_miss_start[$a] && $CDS_end[$cds] <= $Q_genome_miss_end[$a])
+				if ($CDS_start[$cds] < $Q_genome_miss_start[$a] && $CDS_end[$cds] >= $Q_genome_miss_start[$a] && $CDS_end[$cds] <= $Q_genome_miss_end[$a]) #CONDITION 3: FETCHING PARTIALLY DELETED PROTEINS - CASE 3
 					{
 					my $pmr_len =0;
 					my $cds_len =0;
@@ -210,9 +220,11 @@ if ($category[$cds] =~ m/CDS/)
                                                 }
 						
 						$pmr = $pmr . "\n" . $Q_genome_miss_start[$a] . "\t" . $CDS_end[$cds] . "\t" . $pmr_len . "\t" . $cds_len . "\t" . $CDS_start[$cds] . "\t" . $CDS_end[$cds] . "\t" . $trim_cds_percent . "\t" . $pdt . "\t" . $protein_id . "\t" . $note. "\n";
+						$miss = 1;
+                                                push(@prot_par_count, $protein_id);
 						}
 					}
-				if ($CDS_start[$cds] <= $Q_genome_miss_start[$a] && $CDS_end[$cds] >= $Q_genome_miss_end[$a])
+				if ($CDS_start[$cds] <= $Q_genome_miss_start[$a] && $CDS_end[$cds] >= $Q_genome_miss_end[$a]) #CONDITION 4: FETCHING PARTIALLY DELETED PROTEINS - CASE 3
 					{
 					my $pmr_len =0;
 					my $cds_len =0;
@@ -241,11 +253,19 @@ if ($category[$cds] =~ m/CDS/)
                                                 }
 
 						$pmr = $pmr . "\n" . $Q_genome_miss_start[$a] . "\t" . $Q_genome_miss_end[$a] . "\t" . $pmr_len . "\t" . $cds_len . "\t" . $CDS_start[$cds] . "\t" . $CDS_end[$cds] . "\t" . $trim_cds_percent . "\t" . $pdt . "\t" . $protein_id . "\t" . $note. "\n";
+						$miss = 1;
+                                                push(@prot_par_count, $protein_id);
 						}
 					}
 				}
 			
 		} 
+ $cds_count++;
+                 if($miss == 0)
+                        {
+                        $cpcr =  $cpcr . "\n" . $CDS_start[$cds] . "\t" . $CDS_end[$cds] . "\t" . $pdt . "\t" . $protein_id . "\t" . $note;
+                        }
+	
 }
 	$cds++;
 	}
@@ -257,6 +277,9 @@ $pmr =~ s/(^|\n)[\n\s]*/$1/g;
 $pmr =~ s/^\s+//;
 $cmr =~ s/(^|\n)[\n\s]*/$1/g;
 $cmr =~ s/^\s+//;
+$cpcr =~ s/^\s+//;
+$cmr_count = $cmr =~ tr/\n//;
+my $pmr_count = scalar(uniq(@prot_par_count));
 my $complete_msg = "\n**********************Completely-missing-coding-regions**********************\n\n";
 
 my @newcomplete_header = (MR_start, MR_end, CDS_start, CDS_end, MR_length, CDS_length, Product, Protein_id, Note);
@@ -267,7 +290,23 @@ my $line_one = "Total completely missing coding regions length : $tot_cmr_len bp
 my $line_two = "Total partially missing coding regions length : $tot_pmr_len bp\n";
 my $mr_len = $tot_cmr_len + $tot_pmr_len;
 my $line_three = "Total missing regions length : $mr_len bp\n";
-print "$line_one$line_two$line_three $complete_msg $complete_header \n$cmr \n$partial_msg $partial_header$pmr";
+
+
+my $cpcr_pre = $output_prefix . "_cpcr.txt";
+my $mcr_pre = $output_prefix . "_mcr.txt";
+
+open (fh, ">", "$cpcr_pre");
+print fh $cpcr;
+close(fh) or "Couldn't close the file";
+
+
+$fin_line = "$line_one$line_two$line_three $complete_msg $complete_header \n$cmr \n$partial_msg $partial_header$pmr";
 # my $testout = join "\t", @newcomplete_header;
 #print "$fin_line \n";
+
+open (fh, ">", "$mcr_pre");
+print fh $fin_line;
+close(fh) or "Couldn't close the file";
+
+
 exit;
