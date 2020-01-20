@@ -1,15 +1,16 @@
 
-# This script takes mummer output and a reference GFF file as input and prints the completely and partially missing proteins
-# The code is divided into two parts. The first part deals with processing mummer output and calculate the missing regions
-# The second part reads a reference gff3 table and extracts the missing proteins based on the input from the first part
+# This script takes three column mummer output and calculates the gap postions between sucessive matchin regions
 
 
-my $file = $ARGV[0];	
-my $genome_size = $ARGV[1];
+my $file = $ARGV[0];	# READ MUMMER OUTPUT FILE
+my $genome_size = $ARGV[1]; # TAKE PRE CALCULATED SIZE OF THE REFERENCE FASTA
+my $output_prefix = $ARGV[2]; # ASSIGNING OUTPUT PREFIX
+
 chomp($genome_size);
+
 # read input file from the prompt
 open (IN, $file) or die("We have got a situation!! Problem with mummer output!!");
-# open a filehandle to data.txt
+#open a filehandle to mummer output file
 
 # go through the file line by line    
 
@@ -21,6 +22,7 @@ while (my $line = <IN>)
 	push(@Query_genome_start, $words[1]);
 	push(@Hit_region_length, $words[2]);
 	}
+
 my @Ref_genome_end;
 my @Query_genome_end;
 my @Non_hit_region;
@@ -101,5 +103,16 @@ close IN;
 
 $mr_header = "Ref_start \t Ref_end \t Query_start \t Query_end \t Non_hit_region \t Query_miss_start \t Query_miss_end \n";
 
-print "$mr_header $fin_line\n";
+my $mr_final = "$mr_header $fin_line\n";
+
+my $mr_pre = $output_prefix . "_mr.txt";
+
+
+## printing output to a file
+
+open (fh, ">", "$mr_pre");
+print fh $mr_final;
+close(fh) or "Couldn't close the file";
+
+
 exit;
