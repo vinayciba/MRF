@@ -12,7 +12,7 @@ Prerequisites
     
 Installation
 
-	There is no need for installation.Clone the repo, which consists of one bash wrapper script run-mrf-wrapper.sh that calls individual scripts.
+There is no need for installation.Clone the repo, which consists of one bash wrapper script run-mrf-wrapper.sh that calls individual scripts.
 
 Overview
 
@@ -20,13 +20,14 @@ To compare and list the missing coding sequences in a query genome with respect 
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
-	The above command generates three output files, pre_mr.txt, pre_mcr.txt and pre_cpcr.txt.
+	The above command generates several output files, out of which mrfOUT.mum.mcr contains the missing coding sequences and mrfOUT.mum.mr contains the missing regions.
+	The program also creates a folder called circos_files in which the configuration and data files for generating a circos plot are present
 
 To compare and list the missing genomic regions in a query genome with respect to a reference genome.
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta
 
-	The above command generates a output file called pre_mr.txt.
+	The above command without the annoatation file (GFF3), will just generate the missing regions.
 
 To print usage
 
@@ -37,8 +38,13 @@ To print usage
 	Usage:  run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
 	options: -m      mummer exact match length [default: 20]
-		 -o      output prefix [default: pre]
-		 -h      prints usage
+         	 -l      False match length threshold.Values below this will be screened and confirmed if they are true matches [default: 15]
+         	 -n      Negative offset. This option requires False match length as mandatory argument [default: 1]
+         	 -p      Positive offset. This option requires False match length as mandatory argument [default: 1]
+         	 -c      Partial coding sequences below this set threshold are not shown [default: 0]
+         	 -o      output prefix [default: mrfOUT]
+         	 -h      prints usage
+
 
 Use Cases:
 
