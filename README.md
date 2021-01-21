@@ -2,7 +2,7 @@
 
 MRF compares two genomes, a query and a reference, and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome.
 
-To use a web version of this tool, please visit [MRF](bioinfo.ciba.res.in/mrf)
+To use a web version of this tool, please visit [bioinfo.ciba.res.in/mrf]
 
 Prerequisites
 
