@@ -8,15 +8,15 @@ Dependencies
 
 There are very minimal dependencies for running MRF-batch program. Verify if you have the following and install accordingly. Alternatively one can create a conda environment with requisite packages (scroll below)
 
-*1.Perl v5
-*2.Bash
-*3.R > v3.6 and the following packages.
-	*i)	RColorBrewer_1.1-2 
-	*ii)	tidyr_1.1.2        
-	*iii)	plyr_1.8.4        
-	*iv)	gplots_3.0.1.1
-	*v)	ggplot2_3.1.1      
-	*vi)	dplyr_1.0.2
+* 1.Perl v5
+* 2.Bash
+* 3.R > v3.6 and the following packages.
+	* i)	RColorBrewer_1.1-2 
+	* ii)	tidyr_1.1.2        
+	* iii)	plyr_1.8.4        
+	* iv)	gplots_3.0.1.1
+	* v)	ggplot2_3.1.1      
+	* vi)	dplyr_1.0.2
 If you meet the above dependencies, clone the git repository (link), cd into the directory and start running the program.
 
     
