@@ -20,17 +20,28 @@ There are very minimal dependencies for running MRF-batch program. Verify if you
 
 **Installation**
 
-If you meet the above dependencies, clone the repository, cd into the directory and start running the programs.
+If you meet the above dependencies, clone the repository, cd into the directory and start running the programs.Otherwise you can intall through conda as below.
+
+* **Through Conda**
+
+Clone this repository and follow the steps below
+
+    cd mrf
+    conda env create -f MRF.conda_env.yml
+   source activate MRF.env
+
+
 
 **Overview**
 
 **simple mode** (This usage is equivalent to the web version of MRF)
+
 To compare and list the missing coding sequences in a query genome with respect to a reference genome. 
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
-	The above command generates several output files, out of which mrfOUT.mum.mcr contains the missing coding sequences and mrfOUT.mum.mr contains the missing regions.
-	The program also creates a folder called circos_files in which the configuration and data files for generating a circos plot are present
+The above command generates several output files, out of which mrfOUT.mum.mcr contains the missing coding sequences and mrfOUT.mum.mr contains the missing regions.
+The program also creates a folder called circos_files in which the configuration and data files for generating a circos plot are present
 
 To compare and list the missing genomic regions in a query genome with respect to a reference genome.
 
