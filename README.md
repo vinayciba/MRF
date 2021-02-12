@@ -28,7 +28,7 @@ Clone this repository and follow the steps below
 
     cd mrf
     conda env create -f MRF.conda_env.yml
-   source activate MRF.env
+    source activate MRF.env
 
 
 
@@ -40,8 +40,7 @@ To compare and list the missing coding sequences in a query genome with respect 
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
-The above command generates several output files, out of which mrfOUT.mum.mcr contains the missing coding sequences and mrfOUT.mum.mr contains the missing regions.
-The program also creates a folder called circos_files in which the configuration and data files for generating a circos plot are present
+The above command generates several output files, out of which mrfOUT.mum.mcr contains the missing coding sequences and mrfOUT.mum.mr contains the missing regions.The program also creates a folder called circos_files in which the configuration and data files for generating a circos plot are present
 
 To compare and list the missing genomic regions in a query genome with respect to a reference genome.
 
@@ -67,6 +66,42 @@ To print usage
 
 **batch mode**
 
+MRF can be used in batch mode (command line usage only) to analyze multiple query genomes against a single reference genome.
+
+To see the available opitons, run the following command.
+
+    bash batch-run-mrf-wrapper.sh -h
+
+```
+Usage:    batch-run-mrf-wrapper.sh -d query_fasta_directory -r reference_fasta -f reference_gff3
+
+
+options: -m      mummer exact match length [default: 20]
+         -l      False match length threshold.Values below this will be screened and confirmed if they are true matches [default: 15]
+         -n      Negative offset. This option requires False match length as mandatory argument [default: 1]
+         -p      Positive offset. This option requires False match length as mandatory argument [default: 1]
+         -c      Partial coding sequences below this set threshold are not shown [default: 0]
+         -o      output prefix [default: mrfOUT]
+
+Output parsing options:
+
+         -I      Search by protein ids [provide comma separated]
+         -N      Search by protein names [provide comma separated]
+         -Y      Filter by missing coding sequences length [default: 0]
+         -F      List first n proteins [default:10]
+         -Z      List last n proteins [default:10]
+         -R      List by range[m,n]
+         -U      List only top n affected genomes [default: 10]
+         -A      List all proteins
+
+Plot options:
+
+        -L      Number of missing coding sequences to show in heatmap [default: 15]
+        -B      Number of genomes to show in barplot [default: 50]
+
+        -h      prints usage
+
+```
 Use Cases:
 
 	Use case 1: To identify deleted coding sequences in highly similar genomes with significant genome length difference and inconsistent annotations (Ex: White Spot Syndrome Virus)
