@@ -68,7 +68,7 @@ To print usage
 
 MRF can be used in batch mode (command line usage only) to analyze multiple query genomes against a single reference genome.
 
-To see the available opitons, run the following command.
+To see the available options, run the following command.
 
     bash batch-run-mrf-wrapper.sh -h
 
@@ -102,6 +102,14 @@ Plot options:
         -h      prints usage
 
 ```
+To analyze the genomes present in a directory called *query* against a reference genome, run the following command.
+
+    bash batch-run-mrf-wrapper.sh -d query -r Reference.fasta -f Reference.gff3
+    
+The above command produces three files called summaryAll.txt, cdsHeatmap.txt and cdsAll.txt. Apart from these three files, four easy to interpret figures,  a Scatterplot, a Barplot and two Heatmaps (clustered and unclustered) are produced.
+
+**For detailed explanation along with the use cases refer to the manual**
+
 Use Cases:
 
 	Use case 1: To identify deleted coding sequences in highly similar genomes with significant genome length difference and inconsistent annotations (Ex: White Spot Syndrome Virus)
