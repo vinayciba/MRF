@@ -1,14 +1,24 @@
 # MRF: Missing Regions Finder
 
-MRF compares two genomes, a query and a reference, and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome.
+MRF is a virus comparative genomics tool. It takes a query fasta, reference fasta, reference gff3 as inputs and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome. MRF can be run in normal mode (one vs one) in command line and web interface or batch mode (one vs many) in command line.
 
 To use a web version of this tool, please visit bioinfo.ciba.res.in/mrf
 
-Prerequisites
+Dependencies
 
-    Bash
-    GNU Awk
-    Perl
+There are very minimal dependencies for running MRF-batch program. Verify if you have the following and install accordingly. Alternatively one can create a conda environment with requisite packages (scroll below)
+
+1.Perl v5
+2.Bash
+3.R > v3.6 and the following packages.
+	i)	RColorBrewer_1.1-2 
+	ii)	tidyr_1.1.2        
+	iii)	plyr_1.8.4        
+	iv)	gplots_3.0.1.1
+	v)	ggplot2_3.1.1      
+	vi)	dplyr_1.0.2
+If you meet the above dependencies, clone the git repository (link), cd into the directory and start running the program.
+
     
 Installation
 
