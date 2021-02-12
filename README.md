@@ -1,6 +1,6 @@
 # MRF: Missing Regions Finder
 
-MRF is a virus comparative genomics tool. It takes a query fasta, reference fasta, reference gff3 as inputs and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome. MRF can be run in normal mode (one vs one) in command line and web interface or batch mode (one vs many) in command line.
+MRF is a virus comparative genomics tool. It takes a query fasta, reference fasta, reference gff3 as inputs and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome. MRF can be run in simple mode (one vs one) in command line and web interface or batch mode (one vs many) in command line.
 
 To use a web version of this tool, please visit bioinfo.ciba.res.in/mrf
 
@@ -20,12 +20,12 @@ There are very minimal dependencies for running MRF-batch program. Verify if you
 
 **Installation**
 
-If you meet the above dependencies, clone the repository, cd into the directory and start running the program.
-There is no need for installation.Clone the repo, which consists of one bash wrapper script run-mrf-wrapper.sh that calls individual scripts.
+If you meet the above dependencies, clone the repository, cd into the directory and start running the programs.
 
-Overview
+**Overview**
 
-To compare and list the missing coding sequences in a query genome with respect to a reference genome.
+**simple mode** (This usage is equivalent to the web version of MRF)
+To compare and list the missing coding sequences in a query genome with respect to a reference genome. 
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta -f reference gff3
 
@@ -36,7 +36,7 @@ To compare and list the missing genomic regions in a query genome with respect t
 
 	bash run-mrf-wrapper.sh -q query fasta -r reference fasta
 
-	The above command without the annoatation file (GFF3), will just generate the missing regions.
+	The above command without the annotation file (GFF3), will just generate the missing regions.
 
 To print usage
 
@@ -54,6 +54,7 @@ To print usage
          	 -o      output prefix [default: mrfOUT]
          	 -h      prints usage
 
+**batch mode**
 
 Use Cases:
 
