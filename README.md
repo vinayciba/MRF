@@ -4,7 +4,7 @@ MRF is a virus comparative genomics tool. It takes a query fasta, reference fast
 
 To use a web version of this tool, please visit bioinfo.ciba.res.in/mrf
 
-Dependencies
+**Dependencies**
 
 There are very minimal dependencies for running MRF-batch program. Verify if you have the following and install accordingly. Alternatively one can create a conda environment with requisite packages (scroll below)
 
@@ -17,11 +17,10 @@ There are very minimal dependencies for running MRF-batch program. Verify if you
 	* gplots_3.0.1.1
 	* ggplot2_3.1.1      
 	* dplyr_1.0.2
-If you meet the above dependencies, clone the git repository (link), cd into the directory and start running the program.
 
-    
-Installation
+**Installation**
 
+If you meet the above dependencies, clone the repository, cd into the directory and start running the program.
 There is no need for installation.Clone the repo, which consists of one bash wrapper script run-mrf-wrapper.sh that calls individual scripts.
 
 Overview
