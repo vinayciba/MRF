@@ -127,7 +127,7 @@ for(my $i=0,my $j=1;$i<scalar(@Ref_genome_start);$i++,$j++)
         }
 }
 
- if($Ref_genome_start[0] == 1)			#This block deals with first element of the array
+ if($Ref_genome_start[0] == 1)			#if the match starts with the 1st nucleotide of the reference genome, set the below to zero
 {
                 $Non_hit_region[0] = 0;
                 $Q_genome_miss_start[0] = 0;
@@ -136,8 +136,8 @@ for(my $i=0,my $j=1;$i<scalar(@Ref_genome_start);$i++,$j++)
         my $count = scalar(@Ref_genome_start) - 1;
         my $count_act = scalar(@Ref_genome_start);
 
-        $genome_gap = ($genome_size - $Ref_genome_end[$count]); 
-        $genome_fin_start = $Ref_genome_end[$count] + 1;
+        $genome_gap = ($genome_size - $Ref_genome_end[$count]); #get the difference between the genome size and the last match of reference
+        $genome_fin_start = $Ref_genome_end[$count] + 1; #get the starting position of the last gap
         $Q_genome_miss_start[$count_act] = $genome_fin_start;
         $Q_genome_miss_end[$count_act] = $genome_size;
         $end_line =  "0\t0\t0\t0\t$genome_gap\t$genome_fin_start\t$genome_size"; 	#The last element of the array
@@ -151,7 +151,7 @@ for(my $i=0,my $j=1;$i<scalar(@Ref_genome_start);$i++,$j++)
 
 
 
-############################ SUBROUTINE BEGINS ########################
+############################ SUBROUTINE FOR SCREENING FALSE MATCHES BEGINS ########################
 sub screen_false_match
 {
 	my ($i, $j) = @_;
@@ -189,7 +189,6 @@ sub screen_false_match
 
 		if($true_match == 0)			#false matches are eliminated in this loop
 		{
-#print "false match $i \n";
 			push(@false_match, $Query_genome_start[$i]);
 			splice(@Ref_genome_start, $i, 1);
 			splice(@Ref_genome_end, $i, 1);
@@ -223,7 +222,7 @@ sub screen_false_match
 ################# SUBROUTINE screen_false_match($i, $j) ENDS #####################################
 
 
-############################ SUBROUTINE BEGINS ########################
+############################ SUBROUTINE TO GENERATE MISSING REGIONS BEGINS ########################
 sub generate_mr
 {
 	my ($i, $j) = @_;
@@ -277,7 +276,7 @@ my @CDS_start;
 my @CDS_end;
 my @strand;
 my @trash;
-my $karyotop = "chr – chr1 1 0" . " " . $genome_size . " " . "vlpurple";
+my $karyotop = "chr â€“ chr1 1 0" . " " . $genome_size . " " . "vlpurple";
 my $karyotype;
 my $features;
 #my $value = 1;
@@ -564,33 +563,7 @@ sub mr_percentage
          $trim_cds_percent = sprintf("%.2f", $cds_percent);
 	}
 
-my $karyotype_final =  $karyotop . "\n" . $karyotype;
 
-open(OUT,'>','circos_files/karyotype.txt');
-print OUT $karyotype_final;
-close OUT;
-
-open(OUT,'>','circos_files/features_high.txt');
-print OUT $features;
-close OUT;
-
-open(OUT,'>','circos_files/sense.txt');
-print OUT $sense;
-close OUT;
-
-open(OUT,'>','circos_files/antisense.txt');
-print OUT $antisense;
-close OUT;
-
-open(OUT,'>','circos_files/cmr_high.txt');
-print OUT $complete_highlights;
-close OUT;
-
-open(OUT,'>','circos_files/pmr_high.txt');
-print OUT $partial_highlights;
-close OUT;
-
-#$partial_label = join "\n", List::Util::uniqstr( split /\n/, $partial_label);
 my @uniq_partial_lab = uniq(@partial_lab);
 $partial_label = join("", @uniq_partial_lab);
 my $label_highlights =  $complete_highlights . $partial_label;
@@ -675,188 +648,6 @@ open (fh, ">", "$mr");
 print fh $complete_mr;
 close(fh) or "Couldn't close the file";
 
-
-
-my $mj_spacing;
-my $mj_color = "red";
-my $mj_ls = "33p";
-my $mj_format;
-my $mi_spacing;
-my $mi_color = "black";
-my $mi_ls = "28p";
-my $mi_format;
-my $majortick;
-my $minortick;
-if ($genome_size <= 10000)
-        {
-         $mj_spacing = "0.05u";
-         $mj_format = "%.1f";
-         $mi_spacing = "0.02u";
-         $mi_format = "%0.01f";
-        }
-if ($genome_size > 10000 && $genome_size <= 100000)
-        {
-         $mj_spacing = "0.1u";
-         $mj_format = "%d";
-         $mi_spacing = "0.05u";
-         $mi_format = "%0.1f";
-        }
-if ($genome_size > 100000)
-        {
-         $mj_spacing = "1u";
-         $mj_format = "%d";
-         $mi_spacing = "0.5u";
-         $mi_format = "%d";
-        }
-$majortick = tick($mj_spacing, $mj_color, $mj_ls, $mj_format);
-$minortick = tick($mi_spacing, $mi_color, $mi_ls, $mi_format);
-
-sub tick
-{
-my ($spc, $color, $ls, $format) = @_;
-
-
-return "<tick>
-spacing = $spc
-color = $color
-show_label = yes
-label_size = $ls
-label_font = bold
-label_offset = 0p
-format = $format
-</tick>";
-
-}
-sub generateticks
-{
-return "
-show_ticks = yes
-show_tick_labels = yes
-
-<ticks>
-radius = dims(ideogram,radius_outer)
-multiplier = 0.001
-
-label_offset = 5p
-thickness = 3p
-size = 20p
-
-label_separation = 5p
-
- $majortick \n
- $minortick
-
-</ticks>
-"
-}
-
-my $generate_ticks = generateticks();
-
-#print $generate_ticks;
-
-open(OUT,'>','circos_files/ticks.conf');
-print OUT $generate_ticks;
-close OUT;
-
-
-my $mircos_filename = $file . ".MirCos.png"; 
-
-my $printCircosConf = genCircosConf();
-
-open(OUT,'>','circos_files/circos.conf');
-print OUT $printCircosConf;
-close OUT;
-
-
-sub genCircosConf
-{
-
-return "
-karyotype = /your/working/directory/circos_files/karyotype.txt
-
-chromosomes_units = 10000
-chromosomes_display_defaults = yes
-chromosomes_radius = chr1:0.90r;
-
-<<include /your/working/directory/circos_files/high.conf>>
-
-<image>
-dir = /your/working/directory/circos_files
-file  = $mircos_filename
-# radius of inscribed circle in image
-radius         = 1800p
-background     = white
-# by default angle=0 is at 3 o'clock position
-angle_offset   = -90
-</image>
-
-
-
-<ideogram>
-<spacing>
-
-default = 0u
-break = 0u
-
-</spacing>
-
-
-thickness = 80p
-
-radius = 0.80r
-show_label = no
-label_font = bold
-label_with_tag = yes
-label_radius = dims(ideogram,radius) + 0.05r
-label_size = 48
-labell_parallel = yes
-label_case = upper
-
-stroke_thickness = 3
-stroke_color = white
-fill = yes
-
-show_bands = yes
-fill_bands = yes
-
-</ideogram>
-
-<<include /your/working/directory/circos_files/ticks.conf>>
-<plots>
-<plot>
-type = text
-color = black
-label_font = normal
-label_size = 35p
-
-file = /your/working/directory/circos_files/label_high.txt
-
-r1 = 1.50r
-r0 = 1.08r
-
-padding = 1p
-rpadding = 1p
-show_links = yes
-link_dims = 1p,2p,3p,2p,1p,1p
-link_thickness = 3p
-link_color = red
-label_snuggle = yes
-max_snuggle_distance = 2r
-snuggle_sampling = 1
-snuggle_tolerance = 0.25r
-snuggle_link_overlap_test = yes
-snuggle_link_overlap_tolerance = 2p
-snuggle_refine = yes
-
-</plot>
-
-</plots>
-
-<<include /your/circos//installation/direcotry/etc/colors_fonts_patterns.conf>>
-
-<<include /your/circos/installation/direcotry/etc/housekeeping.conf>>
-"
-}
 
 }
 
