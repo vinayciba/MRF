@@ -1,6 +1,6 @@
 # MRF: Missing Regions Finder
 
-MRF is a virus comparative genomics tool. It takes a query fasta, reference fasta, reference gff3 as inputs and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome. MRF can be run in simple mode (one vs one) in command line and web interface or batch mode (one vs many) in command line.
+MRF is a virus comparative genomics tool. It takes a query fasta, reference fasta, reference gff3 as inputs and lists the missing coding sequences (complete and partial) of query genome with respect to the annotations of the reference genome. MRF can be run in single mode (one vs one) in command line and web interface or batch mode (one vs many) in command line.
 
 To use a web version of this tool, please visit http://bioinfo.ciba.res.in/mrf
 
@@ -34,7 +34,7 @@ Clone this repository and follow the steps below
 
 **Overview**
 
-**simple mode** (This usage is equivalent to the web version of MRF)
+**single mode** (This usage is equivalent to the web version of MRF)
 
 To compare and list the missing coding sequences in a query genome with respect to a reference genome. 
 
