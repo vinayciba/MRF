@@ -1,5 +1,7 @@
  #!/bin/bash
 
+###This is a wrapper script which calls other programs and passes inputs to them
+
 MUM_LEN=20
 CDS_PROP_THRESH=0
 FALSE_MATCH_THRESH=15
@@ -13,7 +15,6 @@ TOP=10
 usage()
 
 {
-#echo "Usage:	$0 -q query fasta -r reference fasta -f reference gff3
 echo "Usage:    $0 -d query_fasta_directory -r reference_fasta -f reference_gff3
 
 
@@ -61,8 +62,8 @@ while getopts "AF:Z:I:N:Y:L:B:R:U:m:g:q:d:r:f:l:n:p:c:o:" name;
 	I) P_ID=${OPTARG} ;;			# Search by protein id
 	N) P_NAME=${OPTARG} ;;                  # Search by protein name
 	Y) FILTER=${OPTARG} ;;			# Filter by missing coding sequence length
-	L) CDS_NUM=${OPTARG} ;;		# Number od CDS to show in heatmap
-	B) NUM_BARS=${OPTARG} ;;         # Number od genomes to show in barplot
+	L) CDS_NUM=${OPTARG} ;;		# Number of CDS to show in heatmap
+	B) NUM_BARS=${OPTARG} ;;         # Number of genomes to show in barplot
 	R) RANGE=${OPTARG} ;;			# List by range
 	F) FIRST=${OPTARG} ;;				# List first n proteins
 	Z) LAST=${OPTARG} ;;				# List last n proteins
@@ -73,16 +74,15 @@ while getopts "AF:Z:I:N:Y:L:B:R:U:m:g:q:d:r:f:l:n:p:c:o:" name;
    done
 shift $((OPTIND-1))
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )" #get source location of this script
 
-#echo $DIR;
 
 if [ -z "${QDIR}" ] || [ -z "${REFERENCE}" ] || [ -z "${GFF3_FILE}" ]; then
   usage
 else
 
 	for i in $QDIR/*;
-		do 
+		do
 		if [[ $i =~ .*\.(fasta|fa|fna) ]];
 			then
 		QUERY=$i;
@@ -90,12 +90,7 @@ else
 		Q=${Q%.*}
 		R=${REFERENCE##*/}
 		R=${R%.*}
-#		OUT_PREFIX=${OUTPUT_PREFIX}
-#		TEMP_PREFIX=$OUTPUT_PREFIX_ $(basename "$i" .fasta)_ $(basename $REFERENCE .fasta)
-#		OUT_PREFIX=${OUTPUT_PREFIX}_$(basename "$i" .f*)_$(basename $REFERENCE .*)
 		OUT_PREFIX=${OUTPUT_PREFIX}_${Q}_${R}
-#		OUTPUT_PREFIX=$(basename "$i" .fasta)_Ref
-#		OUTPUT_PREFIX=${TEMP_PREFIX}
 
 		queryName=`grep ">" $QUERY | awk -F '>' '{print $2}'`
 		referenceName=`grep ">" $REFERENCE | awk -F '>' '{print $2}'`
@@ -111,10 +106,10 @@ else
 		echo "CDS_PROP_THRESH = $[CDS_PROP_THRESH]"
 
 		echo $'\n';
-		mkdir circos_files;
+#		mkdir circos_files;
 		mummer -mum -l $MUM_LEN $REFERENCE $QUERY > $OUT_PREFIX.mum;
 
-		ref_gen_len=`awk 'NR>1{s+=length()}END{print s}' $REFERENCE`;
+		ref_gen_len=`awk 'NR>1{s+=length()}END{print s}' $REFERENCE`; #size of the reference genome
 
 		echo $'\n';
 
@@ -132,39 +127,37 @@ echo "Generated missing ooding sequences for all.";
 echo $'\n';
 
 
-#if [ -z "${P_ID}" ] & [ -z "${P_NAME}" ] & [ -z "${FIRST}" ] & [ -z "${LAST}" ] & [ -z "${RANGE}" ] & [ -z "${CDS_NUM}" ] & [ -z "${FILTER}" ] & [ -z "${CDS_NUM}" ]; then
-#		perl parse_mrf_output.pl;
 if [ ! -z "${FIRST}" ];
 	then
-echo "first";
+echo "showing first n proteins ..";
 	perl $DIR/parse_mrf_output.pl --top $TOP --head $FIRST;
 elif [ ! -z "${LAST}" ];
         then
-echo "last";
+echo "showing  last n proteins ..";
         perl $DIR/parse_mrf_output.pl --top $TOP --tail $LAST;
 elif [ ! -z "${RANGE}" ];
         then
-echo "range";
+echo "filtering by range ..";
         perl $DIR/parse_mrf_output.pl --top $TOP --range $RANGE;
 elif [ ! -z "${P_ID}" ];
         then
-echo "pid";
+echo "filtering by protein id ..";
         perl $DIR/parse_mrf_output.pl --top $TOP --prot_ID $P_ID;
 elif [ ! -z "${P_NAME}" ];
         then
-echo "pname";
+echo "filtering by protein name ..";
         perl $DIR/parse_mrf_output.pl --top $TOP --prot_name $P_NAME;
 elif [ ! -z "${CDS_NUM}" ];
         then
-echo "cdsnum";
+echo "showing top n number of proteins ..";
         perl $DIR/parse_mrf_output.pl --top $TOP --number $CDS_NUM;
 elif [ ! -z "${FILTER}" ];
         then
-echo "filte";
+echo "filter by CDS length ..";
         perl $DIR/parse_mrf_output.pl --top $TOP --filter $FILTER;
 elif [ ! -z "${ALL}" ];
         then
-echo "all";
+echo "showing all proteins ..";
         perl $DIR/parse_mrf_output.pl --all;
 else
 	perl $DIR/parse_mrf_output.pl --top $TOP;
