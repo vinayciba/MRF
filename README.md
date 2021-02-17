@@ -26,7 +26,7 @@ If you meet the above dependencies, clone the repository, cd into the directory 
 
 Clone this repository and follow the steps below
 
-    cd mrf
+    cd MRF
     conda env create -f MRF.conda_env.yml
     source activate MRF.env
 
