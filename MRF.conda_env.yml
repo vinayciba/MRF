@@ -62,6 +62,7 @@ dependencies:
   - libxml2=2.9.10=h72842e0_3
   - lz4-c=1.9.3=h9c3ff4c_0
   - make=4.3=hd18ef5c_1
+  - mummer
   - ncurses=6.2=h58526e2_4
   - openssl=1.1.1i=h7f98852_0
   - pango=1.42.4=h69149e4_5
