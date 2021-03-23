@@ -10,6 +10,7 @@ There are very minimal dependencies for running MRF-batch program. Verify if you
 
 * Perl v5
 * Bash
+* Mummer
 * R > v3.6 and the following packages.
 	* RColorBrewer_1.1-2 
 	* tidyr_1.1.2        
