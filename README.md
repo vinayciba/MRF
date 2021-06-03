@@ -111,12 +111,3 @@ The above command produces three files called summaryAll.txt, cdsHeatmap.txt and
 
 **For detailed explanation along with the use cases refer to the manual**
 
-Use Cases:
-
-	Use case 1: To identify deleted coding sequences in highly similar genomes with significant genome length difference and inconsistent annotations (Ex: White Spot Syndrome Virus)
-
-	Use case 2: To tabulate deletions in virulence-related genes among DNA virus genomes (Ex. African Swine Fever Virus)
-
-	Use case 3: To tabulate deletions in virulence-related genes in highly mutable RNA virus genomes (Ex. Human Immunodeficiency Virus)
-
-	Use case 4: To detect the presence of one or more cloned fragments in a genome of interest (Ex. Shrimp Hemocyte Iridescent Virus)
